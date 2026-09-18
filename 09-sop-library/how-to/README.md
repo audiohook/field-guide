@@ -11,6 +11,7 @@ This directory contains step-by-step tactical walkthroughs for specific software
 * *[How to Log a Deal in HubSpot (Stub)]*
 
 ### Customer Success
+* **[How to Run Sales → Onboarding → Launch in Asana](./asana-sales-onboarding-launch.md)**: Parent-task rule, Contract Signed automations, tracking/billing/creative routing, Take Live, and In Testing.
 * *[How to Build a Custom Client Reporting View (Stub)]*
 * *[How to Generate Attribution Lift Reports (Stub)]*
 

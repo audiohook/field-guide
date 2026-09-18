@@ -4,7 +4,7 @@
 > **Process Owner (Accountability Seat)**: Head of Sales  
 > **Target Audience (Who Follows It)**: Account Executives (AEs), Sales Development Reps (SDRs)  
 > **Trigger / Cadence**: Triggered on New Inbound Inquiry or Outbound Prospect Response  
-> **Last Reviewed**: 2026-09-17
+> **Last Reviewed**: 2026-09-18
 
 ---
 
@@ -35,9 +35,9 @@
 4. **Negotiation & Contract Execution (Stage: Contracting)**:
    * Issue standard Audiohook IO via DocuSign/PandaDoc.
    * Secure credit card authorization or pre-payment before launch (or approved Net-30 terms).
-5. **Closed-Won & Onboarding Handoff (Stage: Closed-Won)**:
-   * Complete the [Sales-to-CS Handoff](./handoffs.md) checklist in HubSpot.
-   * Introduce dedicated Customer Success Manager (CSM) via email.
+5. **Closed-Won & Onboarding Handoff (Stage: Contract Signed)**:
+   * Advance the Asana parent task to Contract Signed and complete the [Sales-to-CS Handoff](./handoffs.md).
+   * Keep Clarify in sync with the closed-won stage. Sales introduces the assigned CSM; the same parent task continues into Client Success onboarding.
 
 ---
 
@@ -51,3 +51,4 @@
 * [Lead Qualification](./qualification.md)
 * [CRM Pipeline Hygiene](./crm.md)
 * [Sales-to-CS Handoff](./handoffs.md)
+* [Asana Sales → Onboarding → Launch Workflow](../09-sop-library/how-to/asana-sales-onboarding-launch.md)

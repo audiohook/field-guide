@@ -10,7 +10,7 @@ This section outlines the Audiohook revenue engine: how we prospect, qualify, pr
 * **[Lead Qualification & ICP](./qualification.md)**: BANT / MEDDPICC criteria for qualifying audio advertising opportunities.
 * **[CRM Hygiene & Pipeline Management](./crm.md)**: HubSpot deal stages, required fields, and weekly pipeline inspection standards.
 * **[Proposals & Contracting](./proposals.md)**: Pricing tiers, margin floors, proposal generation, and MSA/IO signing.
-* **[Sales-to-CS Handoff](./handoffs.md)**: Process for transitioning new clients seamlessly to Customer Success.
+* **[Sales-to-CS Handoff](./handoffs.md)**: Contract Signed, one Asana parent task, CSM assignment, advertiser account creation, and client introduction.
 
 ---
 

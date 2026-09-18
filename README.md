@@ -47,12 +47,12 @@ Welcome to the **Audiohook Company Operator's Manual**. This repository serves a
 * [Qualification](./03-sales/qualification.md) — Ideal Customer Profile (ICP) and qualification criteria
 * [CRM Hygiene & Pipeline](./03-sales/crm.md) — Stage definitions, deal tracking, and data standards
 * [Proposals & Contracting](./03-sales/proposals.md) — Pricing rules, proposal creation, and contract execution
-* [Sales-to-CS Handoff](./03-sales/handoffs.md) — Smooth transition of closed-won accounts to Customer Success
+* [Sales-to-CS Handoff](./03-sales/handoffs.md) — Contract Signed, one Asana parent task, CSM assignment, and client introduction
 
 ### [04. Customer Success](./04-customer-success/README.md)
 *Account onboarding, campaign strategy, retention, and expansion.*
-* [Client Onboarding](./04-customer-success/client-onboarding.md) — Kickoff, expectation setting, and account initialization
-* [Campaign Launch](./04-customer-success/campaign-launch.md) — Go-live readiness, pacing review, and initial checks
+* [Client Onboarding](./04-customer-success/client-onboarding.md) — Parallel setup, onboarding call, and Take Live readiness
+* [Campaign Launch](./04-customer-success/campaign-launch.md) — Take Live activation, notices, pacing, and In Testing
 * [Campaign Optimization](./04-customer-success/optimization.md) — Performance analysis, budget reallocation, and targeting tweaks
 * [Client Reporting & QBRs](./04-customer-success/reporting.md) — Reporting cadence, dashboards, and review decks
 * [Escalations & At-Risk Accounts](./04-customer-success/escalations.md) — Early warning triggers and account recovery playbooks

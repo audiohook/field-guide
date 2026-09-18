@@ -7,6 +7,7 @@ This directory contains reusable checklists used for pre-flight quality assuranc
 ## Index of Checklists
 
 ### Campaign Delivery
+* **[Take-Live Readiness Checklist](./take-live-readiness.md)**: Account, billing, tracking, creative, and launch-comms gate before Take Live.
 * *[Pre-Flight Campaign QA 10-Point Checklist (See Ad Ops QA)](../../05-ad-operations/qa.md)*
 * *[Campaign Launch Verification Checklist (See CS Launch)](../../04-customer-success/campaign-launch.md)*
 
