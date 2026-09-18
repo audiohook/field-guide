@@ -36,7 +36,7 @@ When creating a new process or updating an existing one:
 You do **not** need to install Git, use a command line, or clone the repository to your computer. Everything can be read and edited directly in your web browser on GitHub.
 
 ### Step 1: Navigate to the Page
-Open the repository at [github.com/audiohook/handbook](https://github.com/audiohook/handbook). Click into the relevant department folder (e.g., `03-sales/`) and click on the document you want to read (e.g., `sales-process.md`).
+Open the repository at [github.com/audiohook/field-guide](https://github.com/audiohook/field-guide). Click into the relevant department folder (e.g., `03-sales/`) and click on the document you want to read (e.g., `sales-process.md`).
 
 ### Step 2: Click the Edit (Pencil) Icon
 At the top right of the document view, click the **pencil icon** (`Edit this file`).
