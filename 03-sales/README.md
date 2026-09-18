@@ -2,6 +2,8 @@
 
 This section outlines the Audiohook revenue engine: how we prospect, qualify, propose, close, and hand off new advertiser and agency business.
 
+**Department:** Sales & RevOps (Carrie). Customer Success and Ad Ops are functions inside this department; Ad Ops is not its own department.
+
 ---
 
 ## Documents & Core Processes
