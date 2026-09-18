@@ -26,7 +26,7 @@ Welcome to the **Audiohook Company Operator's Manual**. This repository serves a
 * [Mission](./01-company/mission.md) — Why Audiohook exists and our long-term vision
 * [Values](./01-company/values.md) — The core values that guide our decisions
 * [Strategy](./01-company/strategy.md) — Our target market, core focus, and strategic bets
-* [Org Chart & Accountability](./01-company/org-chart.md) — EOS Accountability Chart and seat responsibilities
+* [Org Chart & Accountability](./01-company/org-chart.md) — EOS Accountability Chart, named seats, and RevOps functions
 * [How We Work](./01-company/how-we-work.md) — Operating cadences, L10 meetings, and quarterly planning
 * [Communication](./01-company/communication.md) — Slack, email, and meeting norms
 * [Hiring Philosophy](./01-company/hiring.md) — Executive hiring philosophy, culture bar, and approvals *(Leadership Priority)*
@@ -58,7 +58,7 @@ Welcome to the **Audiohook Company Operator's Manual**. This repository serves a
 * [Escalations & At-Risk Accounts](./04-customer-success/escalations.md) — Early warning triggers and account recovery playbooks
 
 ### [05. Ad Operations](./05-ad-operations/README.md)
-*Technical campaign delivery, trafficking, and inventory execution.*
+*Ad Ops function of RevOps — technical campaign delivery, trafficking, and inventory execution.*
 * [Campaign Setup & Trafficking](./05-ad-operations/campaign-setup.md) — Line items, targeting parameters, and flight dates
 * [Creative Management](./05-ad-operations/creative.md) — Audio and visual specs, asset verification, and storage
 * [Tracking & Pixel Implementation](./05-ad-operations/tracking.md) — Conversion pixels, server-to-server tracking, and UTMs

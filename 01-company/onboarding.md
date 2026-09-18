@@ -32,7 +32,7 @@
 3. **Welcome & Culture 1:1**: Kickoff conversation with manager and assigned onboarding buddy.
 
 ### Month 1 (Days 1–30): Department Immersion
-1. **Department Core Process Training**: Deep-dive into department-specific processes (e.g., Sales, Ad Ops, Engineering).
+1. **Department Core Process Training**: Deep-dive into department-specific processes (e.g., Sales & RevOps, Engineering).
 2. **Shadowing**: Shadow 3–5 real customer calls, campaign setups, or sprint deployments.
 3. **First Milestone Deliverable**: Complete first self-directed project or ticket.
 4. **Day 30 Review**: Structured check-in between employee and manager to review role scorecard alignment.
