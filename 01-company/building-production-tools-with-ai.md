@@ -9,7 +9,7 @@
 ---
 
 ## 1. Purpose & Outcome (Definition of Done)
-- **Purpose**: Empower team members across all departments (Sales, CS, Ad Ops, Marketing, Finance) to innovate rapidly using AI assistants (Claude, Cursor, Replit, ChatGPT, Zapier, Make) while strictly protecting company data, client privacy, system reliability, and financial integrity.
+- **Purpose**: Empower team members across all departments (Sales & RevOps, Product, Engineering, Finance, HR) to innovate rapidly using AI assistants (Claude, Cursor, Replit, ChatGPT, Zapier, Make) while strictly protecting company data, client privacy, system reliability, and financial integrity.
 - **Definition of Done**: Every non-engineer tool that touches production data or client workflows passes safety review, has a designated owner, and is logged in the company tool inventory.
 
 ---

@@ -9,7 +9,7 @@ This section contains foundational documents defining Audiohook's identity, stra
 * **[Mission & Vision](./mission.md)**: Why Audiohook exists and our long-term vision.
 * **[Core Values](./values.md)**: The foundational values that guide our culture and daily actions.
 * **[Strategy & Focus](./strategy.md)**: Target market, core offerings, and strategic bets.
-* **[Org Chart & Accountability](./org-chart.md)**: The EOS Accountability Chart, core seats, and GWC responsibilities.
+* **[Org Chart & Accountability](./org-chart.md)**: The EOS Accountability Chart, named leadership seats, and GWC responsibilities.
 * **[How We Work](./how-we-work.md)**: Operating cadences, Level 10 meetings, quarterly rocks, and scorecards.
 * **[Communication Norms](./communication.md)**: Rules of engagement across Slack, email, documentation, and meetings.
 * **[Hiring Philosophy](./hiring.md)**: Executive hiring standards, culture fit evaluation, and offer approvals. *(Leadership Priority)*

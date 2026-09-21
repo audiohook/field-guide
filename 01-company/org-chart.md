@@ -4,7 +4,7 @@
 > **Process Owner (Accountability Seat)**: Integrator  
 > **Target Audience (Who Follows It)**: All Employees  
 > **Trigger / Cadence**: Updated Whenever Roles Change; Reviewed Quarterly  
-> **Last Reviewed**: 2026-09-17
+> **Last Reviewed**: 2026-09-18
 
 ---
 
@@ -23,27 +23,42 @@
 ## 3. The Major Accountability Seats
 
 ```
-                     ┌──────────────────┐
-                     │    Visionary     │
-                     └─────────┬────────┘
-                               │
-                     ┌─────────┴────────┐
-                     │    Integrator    │
-                     └─────────┬────────┘
-        ┌──────────────┬───────┴────────┬──────────────┐
-        │              │                │              │
-┌───────┴──────┐┌──────┴───────┐┌───────┴──────┐┌──────┴───────┐
-│ Sales & Mktg ││  Operations  ││   Product    ││ Engineering  │
-└──────────────┘└──────────────┘└──────────────┘└──────────────┘
+                              ┌─────────────────┐
+                              │    Visionary    │
+                              │     Jordan      │
+                              └────────┬────────┘
+                                       │
+                              ┌────────┴────────┐
+                              │   Integrator    │
+                              │     Michael     │
+                              └────────┬────────┘
+           ┌────────────┬─────────────┬┴──────────┬────────────┐
+           │            │             │           │            │
+   ┌───────┴───────┐┌───┴────┐┌───────┴───────┐┌──┴─────┐┌─────┴─────┐
+   │Sales & RevOps ││Product ││  Engineering  ││Finance ││    HR     │
+   │    Carrie     ││ Jordan ││     Ryan      ││Patrick ││  Maggie   │
+   └───────────────┘└────────┘└───────────────┘└────────┘└───────────┘
 ```
 
-1. **Visionary**: Big ideas, key relationships, culture, strategic direction.
-2. **Integrator**: Leading, managing, holding accountable (LMA), executing the business plan, removing barriers between departments.
-3. **Sales & Marketing**: Revenue generation, pipeline generation, brand positioning.
-4. **Operations (Customer Success & Ad Ops)**: Flawless campaign execution, client retention, operational efficiency.
-5. **Product**: Customer discovery, feature prioritization, roadmap execution.
-6. **Engineering**: System architecture, platform reliability, software delivery, infrastructure.
-7. **Finance**: Cash flow management, billing, collections, accounting controls.
+| Seat | Owner | Core accountability |
+| :--- | :--- | :--- |
+| **Visionary** | Jordan | Big ideas, key relationships, culture, and strategic direction. Also sits in Product. |
+| **Integrator** | Michael | Leading, managing, and holding accountable (LMA); executing the business plan; removing barriers between departments. |
+| **Sales & RevOps** | Carrie | Revenue generation and revenue operations. Department seat covering Sales, Customer Success, and the Ad Ops function. |
+| **Product** | Jordan | Customer discovery, feature prioritization, roadmap (Now & Next), and release communication. |
+| **Engineering** | Ryan | System architecture, platform reliability, software delivery, and infrastructure. |
+| **Finance** | Patrick | Cash flow, billing, collections, vendor payments, and financial controls. |
+| **HR** | Maggie | Hiring operations, onboarding logistics, compensation administration, performance cadence, and workplace policies. |
+
+### Sales & RevOps (Carrie)
+
+Sales & RevOps is the **department**. The teams below are functions inside it, not peer departments on the Accountability Chart.
+
+| Function | Process docs | Scope |
+| :--- | :--- | :--- |
+| **Sales** | [03-sales](../03-sales/README.md) | Pipeline, qualification, proposals, and closed-won handoff. |
+| **Customer Success** | [04-customer-success](../04-customer-success/README.md) | Client onboarding, campaign launch, optimization, reporting, and retention. |
+| **Ad Ops** | [05-ad-operations](../05-ad-operations/README.md) | Campaign trafficking, creative, tracking, QA, and troubleshooting. **Ad Ops is a function of RevOps, not a department.** |
 
 ---
 

@@ -2,6 +2,8 @@
 
 This section details how Audiohook ensures clients achieve their performance marketing goals, onboard smoothly, optimize live audio campaigns, and scale long-term spend.
 
+**Department:** Sales & RevOps (Carrie). Customer Success is a function of RevOps, alongside Sales and Ad Ops.
+
 ---
 
 ## Documents & Core Processes
