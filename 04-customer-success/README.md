@@ -8,8 +8,8 @@ This section details how Audiohook ensures clients achieve their performance mar
 
 ## Documents & Core Processes
 
-* **[Client Onboarding](./client-onboarding.md)**: Kickoff call, tracking pixel verification, creative collection, and flight setup.
-* **[Campaign Launch](./campaign-launch.md)**: 48-hour pre-launch and post-launch checklist, spend pacing verification, and go-live confirmation.
+* **[Client Onboarding](./client-onboarding.md)**: CSM ownership, parallel billing/tracking/creative work, onboarding call, and Take Live readiness.
+* **[Campaign Launch](./campaign-launch.md)**: Take Live activation, client and Slack notices, pacing checks, and move to In Testing.
 * **[Campaign Optimization](./optimization.md)**: Ongoing performance analysis, audience adjustments, dayparting, and budget rebalancing.
 * **[Client Reporting & QBRs](./reporting.md)**: Weekly reporting cadence, executive dashboards, and quarterly business reviews.
 * **[Escalations & At-Risk Accounts](./escalations.md)**: Early warning indicators, account turn-around playbooks, and churn prevention.
