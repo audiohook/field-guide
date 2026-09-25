@@ -4,13 +4,13 @@
 > **Process Owner (Accountability Seat)**: Head of Sales / Revenue Ops  
 > **Target Audience (Who Follows It)**: All Sales Team Members  
 > **Trigger / Cadence**: Daily Updates; Inspected Weekly at Sales L10  
-> **Last Reviewed**: 2026-09-17
+> **Last Reviewed**: 2026-09-18
 
 ---
 
 ## 1. Purpose & Outcome (Definition of Done)
-- **Purpose**: Maintain pristine, real-time pipeline visibility to ensure accurate revenue forecasting and prevent deals from going stale.
-- **Definition of Done**: Every active deal has an updated close date, accurate dollar value, documented next step, and no overdue tasks.
+- **Purpose**: Maintain pristine, real-time pipeline visibility in Clarify to ensure accurate revenue forecasting and prevent deals from going stale.
+- **Definition of Done**: Every active Clarify deal has an updated close date, accurate dollar value, documented next step, and no overdue tasks.
 
 ---
 
@@ -35,7 +35,7 @@
 ---
 
 ## 4. Mandatory Deal Fields
-Every deal in HubSpot must have:
+Every deal in Clarify must have:
 * **Deal Amount**: Expected gross media spend.
 * **Close Date**: Realistic target date (never left in the past).
 * **Next Step**: Explicit next action and scheduled date (e.g., "Follow up on contract review 9/22").

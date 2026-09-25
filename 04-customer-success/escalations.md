@@ -10,7 +10,7 @@
 
 ## 1. Purpose & Outcome (Definition of Done)
 - **Purpose**: Rapidly identify struggling campaigns or dissatisfied clients, mobilize cross-functional resources, and execute a turnaround plan to prevent churn.
-- **Definition of Done**: Account flagged in CRM, turnaround action plan delivered to client within 48 hours, and account health restored to "Green".
+- **Definition of Done**: Account flagged in Clarify, turnaround action plan delivered to client within 48 hours, and account health restored to "Green".
 
 ---
 
@@ -21,7 +21,7 @@
 ---
 
 ## 3. Early Warning Risk Indicators
-Flag an account as "Red / At-Risk" in CRM if any of the following occur:
+Flag an account as "Red / At-Risk" in Clarify if any of the following occur:
 * CPA > 2x client target for 10 consecutive days.
 * Campaign underpacing by > 20% of scheduled budget.
 * Client expresses dissatisfaction with attribution or reporting.
@@ -31,7 +31,7 @@ Flag an account as "Red / At-Risk" in CRM if any of the following occur:
 
 ## 4. Core Recovery Steps (The 20/80 Flow)
 
-1. **Flag & Triage**: CSM marks deal as "At Risk" in HubSpot and posts in `#cs-leadership` with specific root cause.
+1. **Flag & Triage**: CSM marks the account as "At Risk" in Clarify and posts in `#cs-leadership` with specific root cause.
 2. **Internal War Room (Within 24 Hours)**: CSM, Media Buyer/Ad Ops, and original AE analyze targeting, creative, and technical logs.
 3. **Formulate 7-Day Recovery Plan**:
    * Specific adjustments: creative swap, audience broadening, bid increase, or targeting refocus.

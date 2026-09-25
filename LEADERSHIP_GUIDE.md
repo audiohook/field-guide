@@ -25,7 +25,7 @@ When creating a new process or updating an existing one:
 1. **Use the Template**: Copy the structure from [`PROCESS_TEMPLATE.md`](./PROCESS_TEMPLATE.md).
 2. **Define the Outcome First**: Fill out the **Purpose & Definition of Done** before writing any steps. If you cannot describe what "done" looks like in one sentence, the process scope is too wide.
 3. **Pick 1–3 Measurables**: How does leadership know this process is working? (e.g., ticket resolution time, turnaround SLA, or weekly cadence review in your Level 10 meeting).
-4. **Outline the 4–7 Steps**: Number the essential handoffs and actions. Explicitly note *who* does it and *what tool* is used (e.g., Linear, HubSpot, Slack, Stripe).
+4. **Outline the 4–7 Steps**: Number the essential handoffs and actions. Explicitly note *who* does it and *what tool* is used (e.g., Linear, Clarify, Asana, Slack, Stripe).
 5. **Add the Escalation Path**: State clearly what happens when an exception occurs.
 6. **Link SOPs / Checklists**: If someone needs step-by-step guidance on how to click through a specific tool, link to an SOP in [`09-sop-library/`](./09-sop-library/).
 

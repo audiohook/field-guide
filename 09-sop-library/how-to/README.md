@@ -8,7 +8,7 @@ This directory contains step-by-step tactical walkthroughs for specific software
 
 ### Sales & CRM
 * *[How to Create an Insertion Order in PandaDoc (Stub)]*
-* *[How to Log a Deal in HubSpot (Stub)]*
+* *[How to Log a Deal in Clarify (Stub)]*
 
 ### Customer Success
 * *[How to Build a Custom Client Reporting View (Stub)]*

@@ -24,7 +24,7 @@
 ## 3. Core Onboarding Flow (The 20/80 Flow)
 
 ### Week 1: Foundations & The Handbook
-1. **System & Tool Access (Day 1)**: IT provisioning (Google Workspace, 1Password, Slack, GitHub, Linear, HubSpot, AWS).
+1. **System & Tool Access (Day 1)**: IT provisioning (Google Workspace, 1Password, Slack, GitHub, Linear, Clarify, Asana, AWS).
 2. **Company Handbook Orientation (Days 1–3)**:
    * Read the [Company Mission & Values](./mission.md) and [How We Work](./how-we-work.md).
    * Review the [Leadership Guide](../LEADERSHIP_GUIDE.md) to understand how processes are documented and edited in GitHub.

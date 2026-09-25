@@ -10,7 +10,7 @@ This section outlines the Audiohook revenue engine: how we prospect, qualify, pr
 
 * **[Sales Process Overview](./sales-process.md)**: End-to-end deal lifecycle from first touch to closed-won.
 * **[Lead Qualification & ICP](./qualification.md)**: BANT / MEDDPICC criteria for qualifying audio advertising opportunities.
-* **[CRM Hygiene & Pipeline Management](./crm.md)**: HubSpot deal stages, required fields, and weekly pipeline inspection standards.
+* **[CRM Hygiene & Pipeline Management](./crm.md)**: Clarify deal stages, required fields, and weekly pipeline inspection standards.
 * **[Proposals & Contracting](./proposals.md)**: Pricing tiers, margin floors, proposal generation, and MSA/IO signing.
 * **[Sales-to-CS Handoff](./handoffs.md)**: Process for transitioning new clients seamlessly to Customer Success.
 

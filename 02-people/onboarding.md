@@ -24,7 +24,7 @@
 
 1. **Offer Signed & Profile Created**: Add new hire to Gusto / payroll and initiate background check.
 2. **Hardware Order (10 Days Prior)**: Order company laptop and accessories; ship to employee's address with tracking.
-3. **Account Provisioning (3 Days Prior)**: Create Google Workspace email, 1Password vault, Slack account, and department tool invites (Linear, GitHub, HubSpot).
+3. **Account Provisioning (3 Days Prior)**: Create Google Workspace email, 1Password vault, Slack account, and department tool invites (Linear, GitHub, Clarify, Asana).
 4. **Day 1 Welcome Call (Day 1, 9:30 AM)**: People Ops reviews benefits enrollment, payroll setup, and company policies.
 5. **Manager Hand-Off**: Transition new hire to hiring manager for the [Company Onboarding Program](../01-company/onboarding.md).
 
