@@ -23,7 +23,7 @@
 ## 3. Core Values & Behaviors
 *[To be finalized and documented with the Leadership Team]*
 
-1. **Be Proactive & Own the Outcome**: Take initiative, act like an owner, and see things through to the finish line.
+1. **Get Shit Done**: At the end of the day, we judge by the work accomplished.
 2. **Focus on Speed & Simplicity**: Choose clear, simple solutions over complicated bureaucracy. Ship, learn, and iterate.
 3. **Transparent & Direct Communication**: Give blameless, honest feedback early. Bad news travels fast.
 4. **Continuous Craft Improvement**: Stay curious, master your tools (including AI), and raise the quality bar every quarter.
