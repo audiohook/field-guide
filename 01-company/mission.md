@@ -22,7 +22,7 @@
 
 ## 3. Core Narrative (The 20/80)
 1. **Core Purpose**: Audiohook empowers brands and agencies to achieve measurable, performance-driven results through modern audio advertising.
-2. **10-Year Target (BHAG)**: [To be documented by Leadership / Visionary]
+2. **10-Year Target (BHAG)**: 1,000,000 leveraging the Audiohook platform.
 3. **Core Focus**:
    * *Niche*: Programmatic audio demand-side platform and attribution measurement.
    * *Passion*: Building high-performance, transparent audio advertising infrastructure.
