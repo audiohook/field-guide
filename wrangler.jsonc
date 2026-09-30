@@ -3,5 +3,14 @@
   "compatibility_date": "2026-09-25",
   "assets": {
     "directory": "./dist"
-  }
+  },
+  // Only reachable through fieldguide.audiohook.com, which Cloudflare Access protects.
+  "workers_dev": false,
+  "preview_urls": false,
+  "routes": [
+    {
+      "pattern": "fieldguide.audiohook.com",
+      "custom_domain": true
+    }
+  ]
 }
