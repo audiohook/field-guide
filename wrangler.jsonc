@@ -4,13 +4,15 @@
   "assets": {
     "directory": "./dist"
   },
-  // Only reachable through fieldguide.audiohook.com, which Cloudflare Access protects.
+  // Production stays on fieldguide.audiohook.com. Preview URLs are separate and covered by Cloudflare Access.
   "workers_dev": false,
-  "preview_urls": false,
+  "preview_urls": true,
   "routes": [
     {
       "pattern": "fieldguide.audiohook.com",
       "custom_domain": true
     }
-  ]
+  ],
+  // Required by `wrangler preview`. Empty because this Worker has no bindings to isolate.
+  "previews": {}
 }
