@@ -48,3 +48,5 @@
 ## 5. Related Links
 * [Campaign Setup](./campaign-setup.md)
 * [Campaign QA Checklist](./qa.md)
+* [Client Onboarding](../04-customer-success/client-onboarding.md)
+* [Asana Sales → Onboarding → Launch Workflow](../09-sop-library/how-to/asana-sales-onboarding-launch.md)
