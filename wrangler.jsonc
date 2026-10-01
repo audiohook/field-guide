@@ -1,18 +1,57 @@
 {
   "name": "field-guide",
+  "main": "./worker/index.ts",
   "compatibility_date": "2026-09-25",
   "assets": {
-    "directory": "./dist"
+    "directory": "./dist",
+    // The handbook stays on the asset router. Only the change-request API runs the Worker first.
+    "run_worker_first": ["/api/*"]
   },
   // Production stays on fieldguide.audiohook.com. Preview URLs are separate and covered by Cloudflare Access.
   "workers_dev": false,
   "preview_urls": true,
+  "observability": {
+    "enabled": true,
+    "logs": {
+      "enabled": true,
+      "head_sampling_rate": 1
+    },
+    "traces": {
+      "enabled": true,
+      "head_sampling_rate": 1
+    }
+  },
+  "vars": {
+    "ACCESS_TEAM_DOMAIN": "https://audiohook.cloudflareaccess.com",
+    "ALLOWED_EMAIL_DOMAIN": "audiohook.com"
+  },
+  // SLACK_WEBHOOK_URL is an incoming webhook for #lvl-10.
+  // Production: npx wrangler secret put SLACK_WEBHOOK_URL
+  // New previews: npx wrangler preview base-config secret put SLACK_WEBHOOK_URL
+  "secrets": {
+    "required": ["SLACK_WEBHOOK_URL"]
+  },
+  // Local wrangler dev only. Production identity comes from the Access JWT.
+  "access": {
+    "dev": {
+      "aud": "field-guide-local",
+      "identity": {
+        "email": "dev@audiohook.com",
+        "name": "Local Developer"
+      }
+    }
+  },
   "routes": [
     {
       "pattern": "fieldguide.audiohook.com",
       "custom_domain": true
     }
   ],
-  // Required by `wrangler preview`. Empty because this Worker has no bindings to isolate.
-  "previews": {}
+  // Vars and secrets are not inherited by previews. The webhook must be the #lvl-10 incoming webhook.
+  "previews": {
+    "vars": {
+      "ACCESS_TEAM_DOMAIN": "https://audiohook.cloudflareaccess.com",
+      "ALLOWED_EMAIL_DOMAIN": "audiohook.com"
+    }
+  }
 }

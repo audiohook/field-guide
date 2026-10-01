@@ -5,11 +5,13 @@
   "scripts": {
     "dev": "astro dev",
     "build": "astro build",
-    "preview": "astro preview"
+    "preview": "astro preview",
+    "test": "node --experimental-strip-types --test worker/*.test.ts"
   },
   "dependencies": {
     "@astrojs/starlight": "^0.42.4",
-    "astro": "^7.3.5"
+    "astro": "^7.3.5",
+    "jose": "^6.2.12"
   },
   "devDependencies": {
     "typescript": "^7.0.2",
