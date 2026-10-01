@@ -1,0 +1,197 @@
+---
+import StarlightPage from '@astrojs/starlight/components/StarlightPage.astro';
+---
+
+<StarlightPage frontmatter={{ title: 'Suggest a change' }}>
+	<p>
+		Describe what should change on this page. Your name, the time, and the page are filled in from your
+		Audiohook login. A manager can update the page in GitHub if they approve it.
+	</p>
+
+	<noscript>
+		<p>Suggesting a change needs JavaScript so the form can attach your login.</p>
+	</noscript>
+
+	<form id="change-request">
+		<dl>
+			<div>
+				<dt>Employee</dt>
+				<dd id="employee">Loading…</dd>
+			</div>
+			<div>
+				<dt>Page</dt>
+				<dd id="page">Loading…</dd>
+			</div>
+			<div>
+				<dt>Submitted at</dt>
+				<dd id="submitted-at">Recorded when you submit</dd>
+			</div>
+		</dl>
+
+		<label>
+			What should change?
+			<textarea name="description" required maxlength="4000"></textarea>
+		</label>
+
+		<button type="submit">Submit</button>
+		<p id="status" role="status"></p>
+	</form>
+</StarlightPage>
+
+<script>
+	const form = document.querySelector<HTMLFormElement>('#change-request');
+	const employeeEl = document.querySelector('#employee');
+	const pageEl = document.querySelector('#page');
+	const submittedEl = document.querySelector('#submitted-at');
+	const statusEl = document.querySelector('#status');
+	const descriptionEl = document.querySelector<HTMLTextAreaElement>('textarea[name="description"]');
+	const button = document.querySelector<HTMLButtonElement>('button[type="submit"]');
+	if (!form || !employeeEl || !pageEl || !submittedEl || !statusEl || !descriptionEl || !button) {
+		throw new Error('Suggest a change form is missing');
+	}
+
+	const params = new URLSearchParams(window.location.search);
+	const page = params.get('page') ?? '';
+	const title = params.get('title') ?? '';
+	const file = params.get('file') ?? '';
+
+	function pageOnThisSite(value: string) {
+		if (!value.startsWith('/') || value.startsWith('//') || value.includes('..')) return null;
+		const url = new URL(value, window.location.origin);
+		if (url.origin !== window.location.origin) return null;
+		return url;
+	}
+
+	function setStatus(message: string, failed = false) {
+		statusEl.textContent = message;
+		statusEl.classList.toggle('failed', failed);
+	}
+
+	const pageUrl = pageOnThisSite(page);
+	if (!pageUrl) {
+		pageEl.textContent = 'Open Suggest a change from the page you want updated.';
+		descriptionEl.disabled = true;
+		button.disabled = true;
+		employeeEl.textContent = '—';
+		setStatus('This form needs a page link.', true);
+	} else {
+		const link = document.createElement('a');
+		link.href = pageUrl.href;
+		link.textContent = title || pageUrl.pathname;
+		pageEl.replaceChildren(link);
+
+		const context = await fetch('/api/change-request');
+		if (!context.ok) {
+			const data = (await context.json().catch(() => null)) as { error?: string } | null;
+			employeeEl.textContent = '—';
+			descriptionEl.disabled = true;
+			button.disabled = true;
+			setStatus(data?.error ?? 'Sign in with your Audiohook account to suggest a change.', true);
+		} else {
+			const data = (await context.json()) as { employee: { label: string }; submittedAtLabel: string };
+			employeeEl.textContent = data.employee.label;
+			submittedEl.textContent = data.submittedAtLabel;
+		}
+	}
+
+	form.addEventListener('submit', async (event) => {
+		event.preventDefault();
+		if (!pageUrl || button.disabled) return;
+		button.disabled = true;
+		setStatus('Sending…');
+		try {
+			const response = await fetch('/api/change-request', {
+				method: 'POST',
+				headers: { 'content-type': 'application/json' },
+				body: JSON.stringify({
+					description: descriptionEl.value,
+					page,
+					title,
+					file,
+				}),
+			});
+			const data = (await response.json().catch(() => null)) as {
+				error?: string;
+				message?: string;
+				submittedAtLabel?: string;
+			} | null;
+			if (!response.ok) {
+				button.disabled = false;
+				setStatus(data?.error ?? 'Could not send the request. Your description is still here.', true);
+				return;
+			}
+			if (data?.submittedAtLabel) submittedEl.textContent = data.submittedAtLabel;
+			descriptionEl.disabled = true;
+			setStatus(data?.message ?? 'Sent.');
+		} catch {
+			button.disabled = false;
+			setStatus('Could not send the request. Your description is still here.', true);
+		}
+	});
+</script>
+
+<style>
+	form {
+		display: grid;
+		gap: 1.25rem;
+		max-width: 40rem;
+		margin-top: 1.5rem;
+	}
+	dl {
+		display: grid;
+		gap: 0.75rem;
+		margin: 0;
+	}
+	dl div {
+		display: grid;
+		grid-template-columns: 8.5rem 1fr;
+		gap: 0.75rem;
+	}
+	dt {
+		color: var(--sl-color-gray-3);
+	}
+	dd {
+		margin: 0;
+	}
+	label {
+		display: grid;
+		gap: 0.5rem;
+		font-weight: 600;
+	}
+	textarea {
+		width: 100%;
+		min-height: 10rem;
+		padding: 0.75rem;
+		border: 1px solid var(--sl-color-gray-5);
+		border-radius: 0.5rem;
+		background: var(--sl-color-gray-6);
+		color: var(--sl-color-white);
+		font: inherit;
+		font-weight: 400;
+	}
+	button {
+		justify-self: start;
+		appearance: none;
+		border: 0;
+		border-radius: 999px;
+		padding: 0.55rem 1rem;
+		font: inherit;
+		font-weight: 600;
+		background: var(--sl-color-text-accent);
+		color: var(--sl-color-black);
+		cursor: pointer;
+	}
+	button:disabled {
+		opacity: 0.6;
+		cursor: not-allowed;
+	}
+	#status.failed {
+		color: var(--sl-color-red);
+	}
+	@media (max-width: 40rem) {
+		dl div {
+			grid-template-columns: 1fr;
+			gap: 0.15rem;
+		}
+	}
+</style>
