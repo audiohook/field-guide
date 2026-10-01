@@ -140,7 +140,8 @@ describe('change request endpoint', () => {
 		assert.doesNotMatch(slackCalls[0]?.text ?? '', /eve@audiohook\.com/);
 		assert.doesNotMatch(slackCalls[0]?.text ?? '', /2000/);
 		const body = (await response.json()) as { message: string; submittedAtLabel: string };
-		assert.match(body.message, /#lvl-10/);
+		assert.match(body.message, /Sent\./);
+		assert.doesNotMatch(body.message, /lvl-10/);
 		assert.match(slackCalls[0]?.text ?? '', new RegExp(body.submittedAtLabel.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')));
 	});
 

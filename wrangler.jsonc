@@ -25,7 +25,7 @@
     "ACCESS_TEAM_DOMAIN": "https://audiohook.cloudflareaccess.com",
     "ALLOWED_EMAIL_DOMAIN": "audiohook.com"
   },
-  // SLACK_WEBHOOK_URL is an incoming webhook for #lvl-10.
+  // SLACK_WEBHOOK_URL is the Slack incoming webhook for change requests.
   // Production: npx wrangler secret put SLACK_WEBHOOK_URL
   // New previews: npx wrangler preview base-config secret put SLACK_WEBHOOK_URL
   "secrets": {
@@ -47,7 +47,7 @@
       "custom_domain": true
     }
   ],
-  // Vars and secrets are not inherited by previews. The webhook must be the #lvl-10 incoming webhook.
+  // Vars and secrets are not inherited by previews.
   "previews": {
     "vars": {
       "ACCESS_TEAM_DOMAIN": "https://audiohook.cloudflareaccess.com",

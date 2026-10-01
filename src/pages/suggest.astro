@@ -5,8 +5,7 @@ import StarlightPage from '@astrojs/starlight/components/StarlightPage.astro';
 <StarlightPage frontmatter={{ title: 'Suggest a change' }}>
 	<p>
 		Describe what should change on this page. Your name, the time, and the page are filled in from your
-		Audiohook login. Sending this posts the request to <strong>#lvl-10</strong> so a manager can update the
-		page in GitHub if they approve it.
+		Audiohook login. A manager can update the page in GitHub if they approve it.
 	</p>
 
 	<noscript>
@@ -34,7 +33,7 @@ import StarlightPage from '@astrojs/starlight/components/StarlightPage.astro';
 			<textarea name="description" required maxlength="4000"></textarea>
 		</label>
 
-		<button type="submit">Send to #lvl-10</button>
+		<button type="submit">Submit</button>
 		<p id="status" role="status"></p>
 	</form>
 </StarlightPage>
@@ -123,7 +122,7 @@ import StarlightPage from '@astrojs/starlight/components/StarlightPage.astro';
 			}
 			if (data?.submittedAtLabel) submittedEl.textContent = data.submittedAtLabel;
 			descriptionEl.disabled = true;
-			setStatus(data?.message ?? 'Sent to #lvl-10.');
+			setStatus(data?.message ?? 'Sent.');
 		} catch {
 			button.disabled = false;
 			setStatus('Could not send the request. Your description is still here.', true);

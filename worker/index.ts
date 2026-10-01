@@ -199,7 +199,7 @@ export async function handleChangeRequest(
 		ok: true,
 		submittedAt: submittedAt.toISOString(),
 		submittedAtLabel: formatSubmittedAt(submittedAt),
-		message: 'Sent to #lvl-10. A manager can make the change in GitHub if they approve it.',
+		message: 'Sent. A manager can make the change in GitHub if they approve it.',
 	});
 }
 
