@@ -1,10 +1,11 @@
 # How To: Run Sales → Onboarding → Launch in Asana
 
 > **Department / Section**: 09-sop-library / how-to  
-> **Supports**: [Sales-to-CS Handoff](../../03-sales/handoffs.md), [Client Onboarding](../../04-customer-success/client-onboarding.md), [Campaign Launch](../../04-customer-success/campaign-launch.md)  
-> **Last Reviewed**: 2026-09-18
+> **Supports**: [Sales Process](../../03-sales/sales-process.md), [Sales-to-CS Handoff](../../03-sales/handoffs.md), [Client Onboarding](../../04-customer-success/client-onboarding.md), [Campaign Launch](../../04-customer-success/campaign-launch.md)  
+> **Last Reviewed**: 2026-10-08  
+> **Source**: *Audiohook Asana Operating Model* — Sales Pipeline, Onboarding Overview, and related CURRENT tabs (last updated 2026-09-22)
 
-This SOP is the Asana operating detail behind those core processes. Source of current-state workflow: *Audiohook Sales, Onboarding, Launch, and Early Incrementality Asana Workflow* (last updated 2026-09-04).
+This SOP is the Asana operating detail behind those core processes. It stays faithful to the current-state Revenue Lifecycle documentation. Granular Creative, Tracking, Incrementality, and Affiliate project docs remain authoritative for their specialized workflows.
 
 ---
 
@@ -13,7 +14,7 @@ This SOP is the Asana operating detail behind those core processes. Source of cu
 | System | Role |
 | :--- | :--- |
 | **Asana** | System of action. Kanban stage, automations, subtasks, multi-homing. |
-| **Clarify** | Sales CRM and funnel reporting. Asana reminds owners to keep Clarify in sync during Sales. |
+| **Clarify** | Sales CRM and funnel reporting. Keep synchronized at major stage changes. |
 | **Google Drive** | Client materials and onboarding documentation. |
 | **Slack** | Team-wide communication, including campaign-live announcements. |
 | **Stripe / affiliate platforms** | Billing execution based on custom fields. |
@@ -22,82 +23,76 @@ This SOP is the Asana operating detail behind those core processes. Source of cu
 
 ## Parent-task rule
 
-Keep **one continuous parent task** for the brand from lead through In Testing whenever possible.
+Keep **one continuous parent task** for the brand from lead through Incrementality completion whenever possible.
 
-That task may be multi-homed across Sales, Onboarding, Tracking, Creative, Billing, Incrementality, Referral, and other workflows. Individual work happens in subtasks.
+That task may be multi-homed across Sales, Onboarding, Tracking, Creative, Billing, Incrementality, Referral, and other workflows. Individual work happens in subtasks. Prefer multi-homing over duplicating work for visibility.
 
-**Questionnaire exception:** If the questionnaire creates a second task, merge the prior brand task into the questionnaire-generated task. That record becomes the continuing parent. Do not create a new parent just because another team joins.
+**Questionnaire exception:** If the questionnaire creates a second task, merge the prior brand task into the questionnaire-generated task. That record becomes the continuing parent.
 
 Due dates mean **expected completion**, not only hard deadlines. Assignees keep due dates realistic.
 
 ---
 
-## Lifecycle stages that matter for onboarding
+## Sales Pipeline stages
 
 ```
-Paperwork → Contract Signed → Onboarding Overview (CSM assignment)
-  → Setup & Introduction → Call Pending → Onboarding Call
-  → Campaign / Creative / Tracking / Billing completion
-  → Take Live → Campaign Live actions → In Testing (Incrementality Week 0)
+Lead Entry → SQL → Discovery / Meeting Booked → Data Collection
+  → Proposal Building → Leadership Review → Client Proposal Review
+  → Contracting → Contract Signed → In Onboarding
 ```
 
-### Contract Signed
+Alternate: **Purgatory** (future follow-up) · **Disqualified** (lifecycle ends). No Canceled stage in Sales.
 
-Major ownership transition from Sales into Client Success.
+### Entry paths
 
-Automations typically:
+| Path | What happens |
+| :--- | :--- |
+| Approved referral | Leadership approves → Referral Leads → assign SAE, set lead source, preserve partner, Clarify, outreach |
+| Marketing MQL | Leadership approves MQL → assign SAE, External Lead Source = MQL, Clarify |
+| Affiliate team | Existing parent marked ready → multi-home into Affiliate Leads → assign SAE; affiliate enters Discovery Call Date |
+| Questionnaire | New task enters SQL with populated fields → resolve duplicates by merge → Clarify |
 
-* Add the parent task to **Onboarding Overview** (new-contract assignment).
-* Add the parent task to **Direct Tracking Onboarding**.
-* Create a CSM-assignment task for Head of Customer Success.
-* Create CSE work to create the advertiser account (Advertiser ID, UUID, and related identifiers).
+### Stage notes
 
-After CSM selection:
+* **SQL**: Sales Qualified Yes/No. No → Disqualified + Clarify update. Qualification criteria live in [qualification.md](../../03-sales/qualification.md), not in this SOP.
+* **Discovery / Meeting Booked**: Driven by Discovery Call Date. Keep the date accurate if rescheduled. See [discovery-call.md](./discovery-call.md).
+* **Data Collection**: Technical connection + questionnaire (if needed). Completing required subtasks advances to Proposal Building.
+* **Proposal Building**: Deck, Phase 1 GEOs, field validation, required links (Proposal Deck, Executive Summary, Creative Brief). See [proposal-building.md](./proposal-building.md).
+* **Leadership Review**: Leadership approval + SAE parent-task field verification before client presentation.
+* **Client Proposal Review → Contracting → Contract Signed**: Client agrees → IO (+ affiliate addendum if required) → signature triggers onboarding routing.
 
-* Parent-task owner becomes the assigned CSM (previously Sales).
-* Sales introduces the CSM to the client.
-* CSM replies, schedules the onboarding call, and creates the **client-specific Asana project** in the Clients portfolio.
+### Contract Signed automations (typical)
 
-### Call Pending
+* Multi-home into **Onboarding Overview → New Contract Assignment**
+* Multi-home into **Direct Tracking Onboarding** (and other tracking routes from fields)
+* Affiliate Platform Onboarding → Collect Info when applicable
+* Credit-card / billing triggers when applicable
+* Clarify update prompt, internal contract announcement, 90 Headlines
+* CSE advertiser account creation (Advertiser ID, UUID, related identifiers)
+* CSM-assignment task for Director of Client Success
 
-Use this stage to prepare: onboarding-call template, onboarding deck, Sales context, client requirements, Google Drive folder, and links into the client Asana project.
+After CSM selection: parent-task owner becomes the CSM; SAE introduces the CSM; stage can move to **In Onboarding**. SAE work ends; **do not complete the parent task**.
 
-### Tracking routing
+---
 
-After contract signature and account creation, custom fields multi-home the parent task into the correct tracking project(s):
+## Onboarding Overview stages
 
-* Affiliate platform
-* Universal Tag
-* Shopify
-* Server-to-server
-* Direct tracking
-* Combination
+```
+New Contract Assignment → Setup and Intro → Call Pending
+  → Campaign and Creative → Take Live → In Testing → Complete
+```
 
-Each workflow has implementation-specific subtasks for CSE, CSM, affiliate specialists, or others. Every launch dependency should be an explicit task.
+Alternate: **Canceled** (onboarding terminated before launch; update Clarify).
 
-### Billing routing
+### Stage notes
 
-There is no single billing path. Custom fields decide:
-
-* Direct credit-card billing via Stripe (card on file until established).
-* Affiliate platform billing **and** reporting (client sets program terms; specialist reviews and approves).
-* Affiliate reporting with **direct** Audiohook billing → client must set **$0 CPA / $0 reporting terms** so the platform does not bill commissions by accident.
-
-If the brand originated with a referral partner, Head of Sales & RevOps confirms referral reporting.
-
-### Creative (near-term operating state)
-
-Route into **Creative Overview**. Creative Producer reviews briefing, selects messaging types, and lets Asana create production tasks. Creative complete ≠ ready to launch.
-
-### Take Live
-
-Meaningful readiness threshold, not a calendar date. Confirm tracking, billing, affiliate setup, creative, account configuration, required onboarding actions, and client readiness. Then follow [Campaign Launch](../../04-customer-success/campaign-launch.md) and the [Take-Live Readiness Checklist](../checklists/take-live-readiness.md).
-
-Take Live actions include: launch campaign, campaign-live email, internal Slack announcement, promotional documentation to Accounting, and Everflow Pay follow-up when payment requests are not automatic.
-
-### In Testing
-
-Ends initial onboarding. Incrementality was queued earlier; at launch it moves to **Week 0**, then weekly CSM/CSE testing for up to ~13 weeks toward Verification and Scale.
+* **New Contract Assignment**: CSM assignment + ownership transfer; parallel billing / tracking / affiliate / incrementality / referral routing from custom fields.
+* **Setup and Intro**: Client-specific Asana project in Clients portfolio; Google Drive folder; respond to Sales introduction.
+* **Call Pending**: Prepare from onboarding template/deck + Sales context; schedule strategy call.
+* **Campaign and Creative**: Onboarding call complete. Parent multi-homes into **Creative Overview**; Creative owns production subtasks (still visible on the shared parent). CSM monitors readiness; does not manage Creative production directly. Complete tracking, billing, UI config, Clarify updates in parallel.
+* **Take Live**: Readiness threshold, not a calendar date. Confirm all launch dependencies via [Take-Live Readiness Checklist](../checklists/take-live-readiness.md). Then: launch in UI, client email + dashboard access, Slack announcement, promo/credit documentation, Everflow Pay reminder if needed.
+* **In Testing**: Holding stage after launch. Set Account Status = Live + Launch Date; Accounting notice for affiliate billing if applicable; one-week volume check; remain here while Incrementality runs.
+* **Complete**: Parent task completed **only after Incrementality Testing is complete**.
 
 ---
 
@@ -105,19 +100,23 @@ Ends initial onboarding. Incrementality was queued earlier; at launch it moves t
 
 | Work | Typical owner |
 | :--- | :--- |
-| Master parent task | Assigned CSM |
-| Sales handoff / client introduction | Sales |
+| Master parent task (post-assignment) | Assigned CSM |
+| Sales handoff / client introduction | SAE |
 | Account creation, tracking, GEO, incrementality analysis | CSE |
-| Affiliate-program terms | Affiliate specialist |
+| Affiliate-program terms | Director of Affiliate Partnerships / specialist |
 | Creative production | Creative Producer and assigned producers |
-| Referral reporting | Head of Sales & RevOps |
+| Referral reporting | Leadership / Head of Sales & RevOps |
 | Client relationship and onboarding coordination | CSM |
+| CSM assignment | Director of Client Success |
 
 ---
 
 ## Related core processes
 
 * [Sales Process Overview](../../03-sales/sales-process.md)
+* [CRM Hygiene & Pipeline](../../03-sales/crm.md)
 * [Sales-to-CS Handoff](../../03-sales/handoffs.md)
 * [Client Onboarding](../../04-customer-success/client-onboarding.md)
 * [Campaign Launch](../../04-customer-success/campaign-launch.md)
+* [Discovery Call SOP](./discovery-call.md)
+* [Proposal Building SOP](./proposal-building.md)
