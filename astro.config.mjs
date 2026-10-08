@@ -19,8 +19,12 @@ export default defineConfig({
     starlight({
       title: 'Audiohook Field Guide',
       description: "Audiohook's company operator's manual.",
+      components: {
+        // The edit link stays in the page footer, but it opens the change-request form.
+        EditLink: './src/components/EditLink.astro',
+      },
       editLink: {
-        baseUrl: 'https://github.com/audiohook/field-guide/edit/main/',
+        baseUrl: 'https://github.com/audiohook/field-guide/blob/main/',
       },
       sidebar: [
         {
