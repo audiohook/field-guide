@@ -3,45 +3,51 @@
 > **Department / Section**: 03-sales  
 > **Process Owner (Accountability Seat)**: Head of Sales / Revenue Ops  
 > **Target Audience (Who Follows It)**: All Sales Team Members  
-> **Trigger / Cadence**: Daily Updates; Inspected Weekly at Sales L10  
-> **Last Reviewed**: 2026-09-18
+> **Trigger / Cadence**: Update when Asana stage changes; inspect weekly at L10  
+> **Last Reviewed**: 2026-10-08
 
 ---
 
 ## 1. Purpose & Outcome (Definition of Done)
-- **Purpose**: Maintain pristine, real-time pipeline visibility in Clarify to ensure accurate revenue forecasting and prevent deals from going stale.
-- **Definition of Done**: Every active Clarify deal has an updated close date, accurate dollar value, documented next step, and no overdue tasks.
+- **Purpose**: Keep Clarify forecast-accurate while Asana runs the work.
+- **Definition of Done**: Every active deal has matching stage, realistic close date, amount, and next step.
 
 ---
 
 ## 2. Key Measurables (KPIs)
-* **Forecast Accuracy**: Closed revenue within ±10% of monthly sales forecast.
-* **Pipeline Hygiene**: Zero active deals with "No Activity" > 14 days.
+* **Forecast accuracy**: Closed revenue within ±10% of monthly forecast.
+* **Stale deals**: Zero active deals with no activity > 14 days.
 
 ---
 
-## 3. Standard Deal Stages & Criteria
+## 3. Core Steps (The 20/80 Flow)
 
-| Stage Name | Probability | Exit Criteria to Advance |
+1. **Asana moves first** — advance the parent task using [Sales Pipeline Stage Gates](../09-sop-library/checklists/sales-pipeline-gates.md).
+2. **Mirror in Clarify the same day** — use the map below.
+3. **Keep three fields honest** — Amount, Close Date, Next Step (+ date).
+
+| Asana stage | Clarify stage |
+| :--- | :--- |
+| Lead / pre-SQL | Lead / Inbound |
+| SQL → Data Collection | Qualified Opportunity |
+| Proposal Building | Proposal Prep |
+| Leadership Review | Proposal Internal Review |
+| Client Proposal Review | Proposal Sent |
+| Contracting | Contracting |
+| Contract Signed / In Onboarding | Closed-Won |
+| Purgatory | On Hold |
+| Disqualified | Closed-Lost (reason required) |
+
+---
+
+## 4. Exceptions & Escalations
+
+| Condition / Trigger | Escalation Path | Notification Channel |
 | :--- | :--- | :--- |
-| **1. Lead / Inbound** | 10% | Contact details verified; discovery call booked. |
-| **2. Qualified Opportunity** | 25% | Discovery completed; verified budget, timeline, and ICP fit. |
-| **3. Solution Presented** | 50% | Platform demo delivered; alignment on targeting and attribution. |
-| **4. Proposal Sent** | 75% | Media plan and quote delivered to decision-maker. |
-| **5. Contracting / Verbal** | 90% | Verbal commitment received; IO out for signature. |
-| **6. Closed-Won** | 100% | Signed IO and payment details collected. Handoff initiated. |
-| **Closed-Lost** | 0% | Loss reason required (Pricing, Timing, Product, Ghosted). |
+| Asana and Clarify disagree > 1 business day | RevOps cleans up in L10 | Sales L10 + Asana |
 
 ---
 
-## 4. Mandatory Deal Fields
-Every deal in Clarify must have:
-* **Deal Amount**: Expected gross media spend.
-* **Close Date**: Realistic target date (never left in the past).
-* **Next Step**: Explicit next action and scheduled date (e.g., "Follow up on contract review 9/22").
-
----
-
-## 5. Related Links
-* [Sales Process Overview](./sales-process.md)
-* [Sales-to-CS Handoff](./handoffs.md)
+## 5. Related SOPs & Checklists
+* [Sales Pipeline Stage Gates](../09-sop-library/checklists/sales-pipeline-gates.md)
+* [Sales Process](./sales-process.md)

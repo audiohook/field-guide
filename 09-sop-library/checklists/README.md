@@ -1,21 +1,28 @@
 # SOP Library: Checklists
 
-This directory contains reusable checklists used for pre-flight quality assurance, employee onboarding, security audits, and operational reviews.
+Reusable Followed-by-All checklists. Prefer these over long narrative SOPs for daily execution.
 
 ---
 
-## Index of Checklists
+## Revenue lifecycle (Sales → CS)
 
-### Campaign Delivery
-* **[Take-Live Readiness Checklist](./take-live-readiness.md)**: Account, billing, tracking, creative, and launch-comms gate before Take Live.
+* **[Sales Pipeline Stage Gates](./sales-pipeline-gates.md)** — Gate checklist for each Sales Kanban stage.
+* **[Contract Signed Handoff](./contract-signed-handoff.md)** — 1-day Sales → CS ownership flip.
+* **[Onboarding Stage Gates](./onboarding-gates.md)** — Gate checklist for Onboarding Overview stages.
+* **[Take-Live Readiness](./take-live-readiness.md)** — Launch dependency gate.
+* **[In Testing → Complete](./in-testing-complete.md)** — Post-launch hold until Incrementality finishes.
+
+## Campaign delivery (other)
+
 * *[Pre-Flight Campaign QA 10-Point Checklist (See Ad Ops QA)](../../05-ad-operations/qa.md)*
-* *[Campaign Launch Verification Checklist (See CS Launch)](../../04-customer-success/campaign-launch.md)*
 
-### People & Onboarding
+## People & onboarding
+
 * *[New Hire Day 1 IT Provisioning Checklist (Stub)]*
 * *[Hiring Manager 30-Day Onboarding Review Checklist (Stub)]*
 
-### Engineering & Security
+## Engineering & security
+
 * *[Production Deploy Smoke Test Checklist (Stub)]*
 * *[Non-Engineer AI Tool Security Review Checklist (Stub)]*
 
