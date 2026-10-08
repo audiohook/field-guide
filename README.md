@@ -92,5 +92,5 @@ Welcome to the **Audiohook Company Operator's Manual**. This repository serves a
 
 ### [09. SOP Library](./09-sop-library/README.md)
 *Detailed, step-by-step checklists and task instructions supporting core processes.*
-* [How-To Guides](./09-sop-library/how-to/README.md) — Granular guides for specific tools and systems
-* [Checklists](./09-sop-library/checklists/README.md) — Pre-flight checks and audit checklists
+* [How-To Guides](./09-sop-library/how-to/README.md) — Asana lifecycle, discovery call, proposal building, and other tool guides
+* [Checklists](./09-sop-library/checklists/README.md) — Take-Live readiness and other pre-flight / audit checklists
