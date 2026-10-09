@@ -42,17 +42,17 @@ Welcome to the **Audiohook Company Operator's Manual**. This repository serves a
 * [Company Policies](./02-people/policies.md) — PTO, remote work, equipment, and conduct
 
 ### [03. Sales](./03-sales/README.md)
-*Revenue generation, pipeline management, and closing flows.*
-* [Sales Process](./03-sales/sales-process.md) — End-to-end deal lifecycle from prospect to close
-* [Qualification](./03-sales/qualification.md) — Ideal Customer Profile (ICP) and qualification criteria
-* [CRM Hygiene & Pipeline](./03-sales/crm.md) — Stage definitions, deal tracking, and data standards
-* [Proposals & Contracting](./03-sales/proposals.md) — Pricing rules, proposal creation, and contract execution
+*Revenue generation, pipeline management, and closing flows — aligned to the Asana Sales Pipeline.*
+* [Sales Process](./03-sales/sales-process.md) — Asana Kanban lifecycle from lead entry through Contract Signed
+* [Qualification](./03-sales/qualification.md) — Ideal Customer Profile (ICP) and SQL criteria
+* [CRM Hygiene & Pipeline](./03-sales/crm.md) — Asana ↔ Clarify stage map, deal tracking, and data standards
+* [Proposals & Contracting](./03-sales/proposals.md) — Proposal Building, Leadership Review, client review, and IO execution
 * [Sales-to-CS Handoff](./03-sales/handoffs.md) — Contract Signed, one Asana parent task, CSM assignment, and client introduction
 
 ### [04. Customer Success](./04-customer-success/README.md)
-*Account onboarding, campaign strategy, retention, and expansion.*
-* [Client Onboarding](./04-customer-success/client-onboarding.md) — Parallel setup, onboarding call, and Take Live readiness
-* [Campaign Launch](./04-customer-success/campaign-launch.md) — Take Live activation, notices, pacing, and In Testing
+*Account onboarding, campaign strategy, retention, and expansion — aligned to Onboarding Overview.*
+* [Client Onboarding](./04-customer-success/client-onboarding.md) — New Contract Assignment through Campaign and Creative to Take Live
+* [Campaign Launch](./04-customer-success/campaign-launch.md) — Take Live activation, notices, In Testing, complete after Incrementality
 * [Campaign Optimization](./04-customer-success/optimization.md) — Performance analysis, budget reallocation, and targeting tweaks
 * [Client Reporting & QBRs](./04-customer-success/reporting.md) — Reporting cadence, dashboards, and review decks
 * [Escalations & At-Risk Accounts](./04-customer-success/escalations.md) — Early warning triggers and account recovery playbooks
@@ -92,5 +92,5 @@ Welcome to the **Audiohook Company Operator's Manual**. This repository serves a
 
 ### [09. SOP Library](./09-sop-library/README.md)
 *Detailed, step-by-step checklists and task instructions supporting core processes.*
-* [How-To Guides](./09-sop-library/how-to/README.md) — Granular guides for specific tools and systems
-* [Checklists](./09-sop-library/checklists/README.md) — Pre-flight checks and audit checklists
+* [How-To Guides](./09-sop-library/how-to/README.md) — Asana lifecycle, discovery call, proposal building, and other tool guides
+* [Checklists](./09-sop-library/checklists/README.md) — Take-Live readiness and other pre-flight / audit checklists

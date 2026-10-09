@@ -7,11 +7,13 @@ This directory contains step-by-step tactical walkthroughs for specific software
 ## Index of How-To Guides
 
 ### Sales & CRM
+* **[How to Run a Discovery Call](./discovery-call.md)**: Pre-call prep, discovery flow, proposal-readiness notes, Asana stage behavior.
+* **[How to Build and Review a Proposal](./proposal-building.md)**: Proposal Building checklist, required parent-task links, Leadership Review gate, client validation.
 * *[How to Create an Insertion Order in PandaDoc (Stub)]*
 * *[How to Log a Deal in Clarify (Stub)]*
 
 ### Customer Success
-* **[How to Run Sales → Onboarding → Launch in Asana](./asana-sales-onboarding-launch.md)**: Parent-task rule, Contract Signed automations, tracking/billing/creative routing, Take Live, and In Testing.
+* **[How to Run Sales → Onboarding → Launch in Asana](./asana-sales-onboarding-launch.md)**: Current-state Sales + Onboarding Overview Kanban, entry paths, Contract Signed automations, Take Live, In Testing, and parent-task completion after Incrementality.
 * *[How to Build a Custom Client Reporting View (Stub)]*
 * *[How to Generate Attribution Lift Reports (Stub)]*
 

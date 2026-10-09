@@ -1,16 +1,17 @@
 # Sales-to-CS Handoff
 
 > **Department / Section**: 03-sales (Collaborative with 04-customer-success)  
-> **Process Owner (Accountability Seat)**: Head of Sales / Head of Customer Success  
-> **Target Audience (Who Follows It)**: Account Executives, Head of Customer Success, Customer Success Managers, Client Success Engineers  
+> **Process Owner (Accountability Seat)**: Head of Sales / Director of Client Success  
+> **Target Audience (Who Follows It)**: SAEs, Director of Client Success, CSMs, Client Success Engineers  
 > **Trigger / Cadence**: Triggered When Required Paperwork Is Executed (Contract Signed)  
-> **Last Reviewed**: 2026-09-18
+> **Last Reviewed**: 2026-10-08  
+> **Source**: *Audiohook Sales Pipeline Asana Workflow* §§34–45 + *Onboarding Overview Asana Workflow* §§4–7
 
 ---
 
 ## 1. Purpose & Outcome (Definition of Done)
 - **Purpose**: Transfer the same Asana parent task from Sales ownership into Client Success onboarding so the client experiences one continuous lifecycle, not a restart.
-- **Definition of Done**: Contract is signed, the parent task is in **Contract Signed** and multi-homed into Onboarding Overview, a CSM is assigned and owns the parent task, the advertiser account exists, and Sales has introduced the CSM to the client.
+- **Definition of Done**: Contract is signed; parent task is in **Contract Signed** and multi-homed into Onboarding Overview → **New Contract Assignment**; CSM is assigned and owns the parent task; advertiser account exists; SAE has introduced the CSM; stage can move to **In Onboarding** for Sales completion (parent task remains open).
 
 ---
 
@@ -23,11 +24,16 @@
 
 ## 3. Core Steps (The 20/80 Flow)
 
-1. **Execute Paperwork (Stage: Paperwork → Contract Signed)**: AE completes the Insertion Order and any billing-dependent addenda (including affiliate-platform addenda when custom fields require them). Once executed, the parent task advances to **Contract Signed**.
-2. **Keep One Parent Task**: Do not create a new brand task for onboarding. Asana automations add the existing parent task to **Onboarding Overview** (new-contract assignment) and to **Direct Tracking Onboarding**. The task remains visible in Sales while onboarding begins.
-3. **Assign CSM**: Head of Customer Success assigns a CSM. Parent-task ownership transfers from Sales to the assigned CSM. The CSM is the master owner across the ecosystem; specialists keep their own subtasks.
-4. **Create Advertiser Account Immediately**: Client Success Engineering creates the advertiser account as soon as the contract is signed so Advertiser ID, UUID, and other identifiers exist for tracking, billing, and launch work.
-5. **Introduce the CSM**: Sales sends the client introduction. The CSM replies, schedules the onboarding call, and takes the account into [Client Onboarding](../04-customer-success/client-onboarding.md).
+1. **Execute Paperwork → Contract Signed**: SAE completes the Insertion Order and any billing-dependent addenda. Once executed, the parent task advances to **Contract Signed**. Attach signed documentation to the client record. Update Clarify to Closed-Won.
+2. **Keep One Parent Task (Automatic Routing)**: Do not create a new brand task. Automations multi-home the existing parent into:
+   * **Onboarding Overview → New Contract Assignment**
+   * **Direct Tracking Onboarding** (and/or other tracking routes from custom fields)
+   * Affiliate Platform Onboarding → Collect Info when applicable
+   * Billing triggers (e.g., credit-card email) when applicable
+   * Incrementality queue as configured
+3. **Account Creation & Internal Announcement**: Client Success Engineering creates the advertiser account (Advertiser ID, UUID, related identifiers). Internal contract announcement / 90 Headlines run as configured.
+4. **Assign CSM & Transfer Ownership**: Director of Client Success assigns a CSM. Parent-task ownership transfers from SAE to the assigned CSM. The CSM is the master owner across the ecosystem; specialists keep their own subtasks.
+5. **Introduce the CSM → In Onboarding**: SAE sends the client introduction. CSM replies and schedules the onboarding call. Sales stage moves to **In Onboarding**; SAE active work is complete. The parent task stays open for downstream Client Success work — do not mark it complete.
 
 ---
 
@@ -35,10 +41,10 @@
 
 | Condition / Trigger | Escalation Path | Notification Channel |
 | :--- | :--- | :--- |
-| Questionnaire created a second brand task | Merge the prior task into the questionnaire-generated task; that record becomes the continuing parent | Asana comments on both tasks |
-| CSM not assigned within 1 business day of signature | Escalate to Head of Customer Success | Slack `#revops` and Asana assignment task |
+| Questionnaire created a second brand task | Merge the prior task into the questionnaire-generated task | Asana comments on both tasks |
+| CSM not assigned within 1 business day of signature | Escalate to Director of Client Success | Slack `#revops` and Asana assignment task |
 | Advertiser account not created before tracking routing | Escalate to Client Success Engineering | Asana tracking subtask + Slack |
-| Critical campaign assets delayed after handoff | CSM follows the escalation path in [Client Onboarding](../04-customer-success/client-onboarding.md) | Asana + AE re-engagement |
+| Critical campaign assets delayed after handoff | CSM follows [Client Onboarding](../04-customer-success/client-onboarding.md) | Asana + SAE re-engagement |
 
 ---
 
