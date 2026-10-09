@@ -1,17 +1,15 @@
 # SOP Library: How-To Guides
 
-This directory contains step-by-step tactical walkthroughs for specific software tools, dashboards, and operational tasks at Audiohook.
+Tactical walkthroughs when a checklist is not enough. For Sales → CS daily work, start with [Checklists](../checklists/README.md).
 
 ---
 
 ## Index of How-To Guides
 
-### Sales & CRM
+### Sales & Customer Success
+* **[Asana pointer: Sales → Onboarding → Launch](./asana-sales-onboarding-launch.md)**: Stage maps, non-negotiable rules, ownership — points at the checklists.
 * *[How to Create an Insertion Order in PandaDoc (Stub)]*
 * *[How to Log a Deal in Clarify (Stub)]*
-
-### Customer Success
-* **[How to Run Sales → Onboarding → Launch in Asana](./asana-sales-onboarding-launch.md)**: Parent-task rule, Contract Signed automations, tracking/billing/creative routing, Take Live, and In Testing.
 * *[How to Build a Custom Client Reporting View (Stub)]*
 * *[How to Generate Attribution Lift Reports (Stub)]*
 

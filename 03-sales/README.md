@@ -1,19 +1,20 @@
 # 03. Sales
 
-This section outlines the Audiohook revenue engine: how we prospect, qualify, propose, close, and hand off new advertiser and agency business.
+How Audiohook qualifies, proposes, closes, and hands off new business.
 
-**Department:** Sales & RevOps (Carrie). Customer Success and Ad Ops are functions inside this department; Ad Ops is not its own department.
-
----
-
-## Documents & Core Processes
-
-* **[Sales Process Overview](./sales-process.md)**: End-to-end deal lifecycle from first touch to closed-won.
-* **[Lead Qualification & ICP](./qualification.md)**: BANT / MEDDPICC criteria for qualifying audio advertising opportunities.
-* **[CRM Hygiene & Pipeline Management](./crm.md)**: Clarify deal stages, required fields, and weekly pipeline inspection standards.
-* **[Proposals & Contracting](./proposals.md)**: Pricing tiers, margin floors, proposal generation, and MSA/IO signing.
-* **[Sales-to-CS Handoff](./handoffs.md)**: Contract Signed, one Asana parent task, CSM assignment, advertiser account creation, and client introduction.
+**How to follow this section:** read the short core process, then execute the checklist for your Asana stage. Deep Asana reference stays in the operating-model Google Doc.
 
 ---
 
-*To propose updates to any document in this folder, click into the file, select the pencil icon, make your changes, and submit a pull request.*
+## Core processes (EOS 20/80)
+
+* **[Sales Process Overview](./sales-process.md)** — Five steps from lead to handoff.
+* **[Lead Qualification & ICP](./qualification.md)** — SQL / ICP bar.
+* **[CRM Hygiene & Pipeline](./crm.md)** — Clarify mirrors Asana.
+* **[Proposals & Contracting](./proposals.md)** — Build → Leadership → Client → IO.
+* **[Sales-to-CS Handoff](./handoffs.md)** — Contract Signed ownership flip.
+
+## Checklists (Followed by All)
+
+* [Sales Pipeline Stage Gates](../09-sop-library/checklists/sales-pipeline-gates.md)
+* [Contract Signed Handoff](../09-sop-library/checklists/contract-signed-handoff.md)

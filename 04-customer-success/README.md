@@ -1,19 +1,22 @@
 # 04. Customer Success
 
-This section details how Audiohook ensures clients achieve their performance marketing goals, onboard smoothly, optimize live audio campaigns, and scale long-term spend.
+How Audiohook onboards, launches, and grows advertiser accounts.
 
-**Department:** Sales & RevOps (Carrie). Customer Success is a function of RevOps, alongside Sales and Ad Ops.
-
----
-
-## Documents & Core Processes
-
-* **[Client Onboarding](./client-onboarding.md)**: CSM ownership, parallel billing/tracking/creative work, onboarding call, and Take Live readiness.
-* **[Campaign Launch](./campaign-launch.md)**: Take Live activation, client and Slack notices, pacing checks, and move to In Testing.
-* **[Campaign Optimization](./optimization.md)**: Ongoing performance analysis, audience adjustments, dayparting, and budget rebalancing.
-* **[Client Reporting & QBRs](./reporting.md)**: Weekly reporting cadence, executive dashboards, and quarterly business reviews.
-* **[Escalations & At-Risk Accounts](./escalations.md)**: Early warning indicators, account turn-around playbooks, and churn prevention.
+**How to follow this section:** short core process + stage checklists. Specialist Creative / Tracking / Incrementality detail stays in those Asana projects and the operating-model Google Doc.
 
 ---
 
-*To propose updates to any document in this folder, click into the file, select the pencil icon, make your changes, and submit a pull request.*
+## Core processes (EOS 20/80)
+
+* **[Client Onboarding](./client-onboarding.md)** — Own the task → call → clear dependencies → Take Live gate.
+* **[Campaign Launch](./campaign-launch.md)** — Activate, notify, hold In Testing until Incrementality completes.
+* **[Campaign Optimization](./optimization.md)** — Ongoing performance work.
+* **[Client Reporting & QBRs](./reporting.md)** — Reporting cadence.
+* **[Escalations & At-Risk Accounts](./escalations.md)** — Recovery playbooks.
+
+## Checklists (Followed by All)
+
+* [Onboarding Stage Gates](../09-sop-library/checklists/onboarding-gates.md)
+* [Take-Live Readiness](../09-sop-library/checklists/take-live-readiness.md)
+* [In Testing → Complete](../09-sop-library/checklists/in-testing-complete.md)
+* [Contract Signed Handoff](../09-sop-library/checklists/contract-signed-handoff.md) (entry from Sales)
