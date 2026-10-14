@@ -11,6 +11,8 @@ const sections = [
   ['07-engineering', '07. Engineering'],
   ['08-finance', '08. Finance'],
   ['09-sop-library', '09. SOP Library'],
+  ['10-supply', '10. Supply'],
+  ['11-marketing', '11. Marketing'],
 ];
 
 export default defineConfig({
