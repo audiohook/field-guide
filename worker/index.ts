@@ -1,4 +1,5 @@
 import { createRemoteJWKSet, jwtVerify } from 'jose';
+import { isMcpPath, mcpPublicHost, requestServesMcp } from './mcp-route.ts';
 import {
 	buildSlackMessage,
 	employeeFromAccessPayload,
@@ -13,6 +14,8 @@ export interface ChangeRequestEnv {
 	ACCESS_TEAM_DOMAIN: string;
 	ALLOWED_EMAIL_DOMAIN: string;
 	SLACK_WEBHOOK_URL: string;
+	MCP_PUBLIC_HOST?: string;
+	ASSETS?: { fetch: (request: Request) => Promise<Response> };
 }
 
 export interface AccessLike {
@@ -205,7 +208,22 @@ export async function handleChangeRequest(
 
 export default {
 	async fetch(request, env, ctx) {
-		const access = ctx.access;
-		return handleChangeRequest(request, env, access);
+		const url = new URL(request.url);
+		const onMcpHost = url.hostname.toLowerCase() === mcpPublicHost(env);
+		if (onMcpHost && url.pathname !== '/' && !isMcpPath(url.pathname)) {
+			return new Response('Not found.', {
+				status: 404,
+				headers: { 'content-type': 'text/plain; charset=utf-8', 'cache-control': 'no-store' },
+			});
+		}
+		if (onMcpHost || requestServesMcp(url, env)) {
+			const { handleMcpRequest } = await import('./mcp-entry.ts');
+			return handleMcpRequest(request, env, ctx);
+		}
+		if (url.pathname.startsWith('/api/')) {
+			return handleChangeRequest(request, env, ctx.access);
+		}
+		if (env.ASSETS) return env.ASSETS.fetch(request);
+		return handleChangeRequest(request, env, ctx.access);
 	},
-} satisfies ExportedHandler<Env>;
+} satisfies ExportedHandler<ChangeRequestEnv & { ASSETS?: { fetch: (request: Request) => Promise<Response> } }>;

@@ -2,12 +2,16 @@
   "name": "field-guide",
   "main": "./worker/index.ts",
   "compatibility_date": "2026-09-25",
+  "compatibility_flags": ["nodejs_compat"],
   "assets": {
     "directory": "./dist",
-    // The handbook stays on the asset router. Only the change-request API runs the Worker first.
-    "run_worker_first": ["/api/*"]
+    "binding": "ASSETS",
+    // The Worker runs first so the MCP hostname cannot serve handbook HTML.
+    // The handbook host still reads these assets after Access.
+    "run_worker_first": true
   },
   // Production stays on fieldguide.audiohook.com. Preview URLs are separate and covered by Cloudflare Access.
+  // The MCP host is one label under audiohook.com so the zone's universal certificate can cover it.
   "workers_dev": false,
   "preview_urls": true,
   "observability": {
@@ -23,13 +27,29 @@
   },
   "vars": {
     "ACCESS_TEAM_DOMAIN": "https://audiohook.cloudflareaccess.com",
-    "ALLOWED_EMAIL_DOMAIN": "audiohook.com"
+    "ALLOWED_EMAIL_DOMAIN": "audiohook.com",
+    "MCP_PUBLIC_HOST": "fieldguide-mcp.audiohook.com"
   },
+  "kv_namespaces": [
+    {
+      "binding": "OAUTH_KV",
+      "id": "d69cca52095849468963bfc73d7abfbb"
+    }
+  ],
   // SLACK_WEBHOOK_URL is the Slack incoming webhook for change requests.
+  // The ACCESS_* secrets and COOKIE_ENCRYPTION_KEY belong to the Field Guide MCP.
   // Production: npx wrangler secret put SLACK_WEBHOOK_URL
   // New previews: npx wrangler preview base-config secret put SLACK_WEBHOOK_URL
   "secrets": {
-    "required": ["SLACK_WEBHOOK_URL"]
+    "required": [
+      "SLACK_WEBHOOK_URL",
+      "ACCESS_CLIENT_ID",
+      "ACCESS_CLIENT_SECRET",
+      "ACCESS_TOKEN_URL",
+      "ACCESS_AUTHORIZATION_URL",
+      "ACCESS_JWKS_URL",
+      "COOKIE_ENCRYPTION_KEY"
+    ]
   },
   // Local wrangler dev only. Production identity comes from the Access JWT.
   "access": {
@@ -45,13 +65,18 @@
     {
       "pattern": "fieldguide.audiohook.com",
       "custom_domain": true
+    },
+    {
+      "pattern": "fieldguide-mcp.audiohook.com",
+      "custom_domain": true
     }
   ],
   // Vars and secrets are not inherited by previews.
   "previews": {
     "vars": {
       "ACCESS_TEAM_DOMAIN": "https://audiohook.cloudflareaccess.com",
-      "ALLOWED_EMAIL_DOMAIN": "audiohook.com"
+      "ALLOWED_EMAIL_DOMAIN": "audiohook.com",
+      "MCP_PUBLIC_HOST": "fieldguide-mcp.audiohook.com"
     }
   }
 }

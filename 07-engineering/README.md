@@ -15,6 +15,7 @@ This section outlines the high-level EOS core processes for software engineering
 * **[Incident Response & On-Call](./incidents.md)**: Severity definitions (S1–S4), escalation paging, customer comms, and blameless post-mortems.
 * **[Infrastructure & Reliability](./infrastructure.md)**: Cloud services, monitoring/alerting standards, and SLA/SLO performance targets.
 * **[Building Production Tools with AI](./building-production-tools-with-ai.md)**: Engineering review requirements for tools built by non-engineers. *(See also [Company Policy](../01-company/building-production-tools-with-ai.md))*
+* **[Field Guide MCP](../09-sop-library/how-to/field-guide-mcp.md)**: Connect Cursor or Claude to the handbook with an Audiohook sign-in.
 
 ---
 

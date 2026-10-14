@@ -1,3 +1,11 @@
 # Slack incoming webhook for change requests. Copy this file to .dev.vars for local wrangler dev.
 # Do not commit the real URL.
 SLACK_WEBHOOK_URL=
+
+# Field Guide MCP. Production values are Worker secrets, created with the Access for SaaS app.
+ACCESS_CLIENT_ID=
+ACCESS_CLIENT_SECRET=
+ACCESS_TOKEN_URL=
+ACCESS_AUTHORIZATION_URL=
+ACCESS_JWKS_URL=
+COOKIE_ENCRYPTION_KEY=
