@@ -95,7 +95,7 @@ Welcome to the **Audiohook Company Operator's Manual**. This repository serves a
 ### [09. SOP Library](./09-sop-library/README.md)
 *Checklists are the Followed-by-All execution layer; how-tos are pointers and deep tool help.*
 * [Checklists](./09-sop-library/checklists/README.md) — Sales/onboarding/launch stage gates and Take-Live readiness
-* [How-To Guides](./09-sop-library/how-to/README.md) — Asana pointer and other tool guides
+* [How-To Guides](./09-sop-library/how-to/README.md) — Asana pointer, Field Guide MCP, and other tool guides
 
 ### [10. Supply](./10-supply/README.md)
 *Relationships with content creators and networks that provide ad inventory.*
