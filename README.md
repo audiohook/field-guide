@@ -59,8 +59,8 @@ Welcome to the **Audiohook Company Operator's Manual**. This repository serves a
 * [Escalations & At-Risk Accounts](./04-customer-success/escalations.md) — Early warning triggers and account recovery playbooks
 * [Onboarding Gates](./09-sop-library/checklists/onboarding-gates.md) · [Take-Live Readiness](./09-sop-library/checklists/take-live-readiness.md) · [In Testing → Complete](./09-sop-library/checklists/in-testing-complete.md)
 
-### [05. Ad Operations](./05-ad-operations/README.md)
-*Ad Ops function of RevOps — technical campaign delivery, trafficking, and inventory execution.*
+### [05. Rev Ops](./05-ad-operations/README.md)
+*Technical campaign delivery, trafficking, and inventory execution.*
 * [Campaign Setup & Trafficking](./05-ad-operations/campaign-setup.md) — Line items, targeting parameters, and flight dates
 * [Creative Management](./05-ad-operations/creative.md) — Audio and visual specs, asset verification, and storage
 * [Tracking & Pixel Implementation](./05-ad-operations/tracking.md) — Conversion pixels, server-to-server tracking, and UTMs

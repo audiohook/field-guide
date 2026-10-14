@@ -6,7 +6,7 @@ const sections = [
   ['02-people', '02. People'],
   ['03-sales', '03. Sales'],
   ['04-customer-success', '04. Customer Success'],
-  ['05-ad-operations', '05. Ad Operations'],
+  ['05-ad-operations', '05. Rev Ops'],
   ['06-product', '06. Product'],
   ['07-engineering', '07. Engineering'],
   ['08-finance', '08. Finance'],

@@ -16,7 +16,7 @@ Tactical walkthroughs when a checklist is not enough. For Sales → CS daily wor
 * *[How to Build a Custom Client Reporting View (Stub)]*
 * *[How to Generate Attribution Lift Reports (Stub)]*
 
-### Ad Operations
+### Rev Ops
 * *[How to Traffic an Audio Line Item in the DSP (Stub)]*
 * *[How to Inspect Audio Files with FFmpeg (Stub)]*
 * *[How to Test Webhook Attribution Endpoints (Stub)]*

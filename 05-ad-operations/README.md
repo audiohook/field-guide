@@ -1,8 +1,8 @@
-# 05. Ad Operations
+# 05. Rev Ops
 
 This section details technical campaign delivery, creative trafficking, inventory management, pixel tracking verification, and DSP troubleshooting at Audiohook.
 
-**Ad Ops is a function of RevOps, not a department.** It reports through Sales & RevOps (Carrie), alongside Sales and Customer Success. These process docs live here for readability; they do not represent a separate department on the [Org Chart](../01-company/org-chart.md).
+**Rev Ops is a function inside Sales & RevOps, not its own department.** It reports through Sales & RevOps (Carrie), alongside Sales and Customer Success. These process docs live here for readability; they do not represent a separate department on the [Org Chart](../01-company/org-chart.md).
 
 ---
 

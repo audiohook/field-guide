@@ -14,7 +14,7 @@ Reusable Followed-by-All checklists. Prefer these over long narrative SOPs for d
 
 ## Campaign delivery (other)
 
-* *[Pre-Flight Campaign QA 10-Point Checklist (See Ad Ops QA)](../../05-ad-operations/qa.md)*
+* *[Pre-Flight Campaign QA 10-Point Checklist (See Rev Ops QA)](../../05-ad-operations/qa.md)*
 
 ## People & onboarding
 

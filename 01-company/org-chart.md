@@ -44,7 +44,7 @@
 | :--- | :--- | :--- |
 | **Visionary** | Jordan | Big ideas, key relationships, culture, and strategic direction. Also sits in Product. |
 | **Integrator** | Michael | Leading, managing, and holding accountable (LMA); executing the business plan; removing barriers between departments. |
-| **Sales & RevOps** | Carrie | Revenue generation and revenue operations. Department seat covering Sales, Customer Success, and the Ad Ops function. |
+| **Sales & RevOps** | Carrie | Revenue generation and revenue operations. Department seat covering Sales, Customer Success, and Rev Ops. |
 | **Product** | Jordan | Customer discovery, feature prioritization, roadmap (Now & Next), and release communication. |
 | **Engineering** | Ryan | System architecture, platform reliability, software delivery, and infrastructure. |
 | **Finance** | Patrick | Cash flow, billing, collections, vendor payments, and financial controls. |
@@ -58,7 +58,7 @@ Sales & RevOps is the **department**. The teams below are functions inside it, n
 | :--- | :--- | :--- |
 | **Sales** | [03-sales](../03-sales/README.md) | Pipeline, qualification, proposals, and closed-won handoff. |
 | **Customer Success** | [04-customer-success](../04-customer-success/README.md) | Client onboarding, campaign launch, optimization, reporting, and retention. |
-| **Ad Ops** | [05-ad-operations](../05-ad-operations/README.md) | Campaign trafficking, creative, tracking, QA, and troubleshooting. **Ad Ops is a function of RevOps, not a department.** |
+| **Rev Ops** | [05-ad-operations](../05-ad-operations/README.md) | Campaign trafficking, creative, tracking, QA, and troubleshooting. **Rev Ops is a function inside Sales & RevOps, not its own department.** |
 
 ---
 
