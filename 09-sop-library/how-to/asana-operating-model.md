@@ -23,6 +23,7 @@ The manual also has a tab for each affiliate platform onboarding path, marketing
 | Operating Model | Audiohook Asana Current-State Operating Model | CURRENT |
 | Revenue Lifecycle | Audiohook Sales, Onboarding, Launch, and Early Incrementality Asana Workflow | CURRENT |
 | Sales | Audiohook Sales Pipeline Asana Workflow | CURRENT |
+| Sales | [Lead Qualification SOP](https://docs.google.com/document/d/1No1SQLkH1yOyvvDE351ZJykgW3_cPy6qirmiFNOA-pI/edit?tab=t.uv3089g71kvj) | CURRENT |
 | Onboarding | Audiohook Onboarding Overview Asana Workflow | CURRENT |
 | Client Success | Audiohook Client Success Portfolio | CURRENT |
 | Creative | Audiohook Creative Overview Asana Workflow | CURRENT |
@@ -31,8 +32,11 @@ The manual also has a tab for each affiliate platform onboarding path, marketing
 | Tracking | Audiohook Tracking Onboarding Portfolio | CURRENT WITH KNOWN GAPS |
 | Tracking | Audiohook Tracking Maintenance Portfolio | CURRENT |
 | Incrementality | Audiohook Incrementality Testing Asana Workflow | CURRENT |
+| Incrementality | [Phase 1 GEO Determination](https://docs.google.com/document/d/1No1SQLkH1yOyvvDE351ZJykgW3_cPy6qirmiFNOA-pI/edit?tab=t.sc2ikmn9l3xn) | CURRENT |
+| Incrementality | [Shopify Sales Data Preparation for Incrementality Test Setup](https://docs.google.com/document/d/1No1SQLkH1yOyvvDE351ZJykgW3_cPy6qirmiFNOA-pI/edit?tab=t.vnuxz2l48bid) | CURRENT |
 | Marketing | Audiohook Marketing Portfolio | CURRENT |
 | Affiliate | Audiohook Affiliate Team Portfolio | CURRENT |
+| Affiliate | [New Affiliate Platform Onboarding](https://docs.google.com/document/d/1No1SQLkH1yOyvvDE351ZJykgW3_cPy6qirmiFNOA-pI/edit?tab=t.pjkiop61do66) | CURRENT |
 | Referral | Audiohook Referral Program Portfolio | TRANSITIONAL |
 | Opportunities | Audiohook Opportunities Tracking Portfolio | CURRENT WITH KNOWN GAPS |
 | Billing | Audiohook Billing Portfolio | TRANSITIONAL |

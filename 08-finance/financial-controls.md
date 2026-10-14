@@ -4,7 +4,7 @@
 > **Process Owner (Accountability Seat)**: Head of Finance / Integrator  
 > **Target Audience (Who Follows It)**: Finance, Executive Leadership  
 > **Trigger / Cadence**: Monthly Accounting Close; Reviewed at Quarterly Planning  
-> **Last Reviewed**: 2026-09-17
+> **Last Reviewed**: 2026-10-14
 
 ---
 
@@ -20,24 +20,25 @@
 
 ---
 
-## 3. Core Financial Controls (The 20/80 Flow)
+## 3. Core Financial Controls
 
-1. **Dual Authorization on Banking / Wire Transfers**:
-   * Any outward wire transfer > $10,000 requires two authorized signatories (Integrator and Visionary).
-2. **Corporate Credit Card Policy**:
-   * Company cards are for legitimate business expenses only.
-   * Receipts must be uploaded to Ramp/Expensify within 7 days of transaction with clear business purpose documented.
+1. **Monthly Balance Sheet Reconciliation**:
+   * Reconcile all balance sheet accounts using third-party support, if available.
+2. **Financial Reporting**:
+   * Generate monthly P&L, Balance Sheet, Cash Flow Statement, and Budget to Actuals for leadership L10.
 3. **Segregation of Duties**:
-   * The individual who approves a vendor bill cannot be the sole individual executing the bank payment.
-4. **Monthly Balance Sheet Reconciliation**:
-   * Reconcile Cash, AR, AP, Media Inventory Accruals, and Deferred Revenue.
-5. **Financial Reporting**:
-   * Generate monthly P&L, Balance Sheet, Cash Flow Statement, and Gross Margin analysis for leadership L10.
+   * The individual who approves a vendor bill cannot be the individual uploading the invoice into Mercury (the Company's banking platform).
+4. **CEO approval**:
+   * The CEO approves all invoices paid and their timing.
+5. **Corporate Credit Card Policy**:
+   * Company cards are for legitimate business expenses only.
+   * Receipts must be uploaded to Mercury within 7 days of the transaction, aligned with company policy.
 
 ---
 
 ## 4. Exceptions & Escalations
-* Any suspected fraudulent activity or unexplained variance > $5,000 must be reported immediately to the Integrator and Visionary.
+1. Any employee with undocumented business expenses for more than 2 months will be identified and escalated to their immediate supervisor. If lack of documentation continues, escalate to the CEO and determine whether the account should be suspended.
+2. Any suspected fraudulent activity or unexplained variance must be reported immediately to the Senior Accountant and Finance Director.
 
 ---
 

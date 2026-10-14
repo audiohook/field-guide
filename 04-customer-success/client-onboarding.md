@@ -4,13 +4,13 @@
 > **Process Owner (Accountability Seat)**: Director of Client Success  
 > **Target Audience (Who Follows It)**: CSMs, CSEs, Creative, Billing / Affiliate specialists  
 > **Trigger / Cadence**: Contract Signed → Onboarding Overview  
-> **Last Reviewed**: 2026-10-08
+> **Last Reviewed**: 2026-10-14
 
 ---
 
 ## 1. Purpose & Outcome (Definition of Done)
 - **Purpose**: Get a newly signed brand launch-ready on one parent task.
-- **Definition of Done**: Onboarding call done; billing, tracking, creative, and account setup green; parent task at Take Live.
+- **Definition of Done**: Onboarding call done; billing, tracking, creative, Incrementality Testing setup, and account setup green; parent task at Take Live.
 
 ---
 
@@ -29,7 +29,8 @@ Execute with the [Onboarding Stage Gates checklist](../09-sop-library/checklists
 2. **Set up the workspace** — Client Asana project + Drive folder; reply to Sales intro.
 3. **Run the onboarding call** — Schedule, prepare, complete, document actions.
 4. **Clear parallel dependencies** — Creative (via Creative Overview), tracking, billing/affiliate, UI config, Clarify.
-5. **Gate Take Live** — Only when [Take-Live Readiness](../09-sop-library/checklists/take-live-readiness.md) is green → [Campaign Launch](./campaign-launch.md).
+5. **Set up Incrementality Testing** — Follow [Incrementality Testing setup](../09-sop-library/how-to/incrementality-testing-setup.md). Phase 1 GEOs are chosen before launch. Shopify advertisers get a cleaned historical sales file first. Advertising runs only in the selected treatment states until testing ends.
+6. **Gate Take Live** — Only when [Take-Live Readiness](../09-sop-library/checklists/take-live-readiness.md) is green → [Campaign Launch](./campaign-launch.md).
 
 ---
 
@@ -49,4 +50,5 @@ Execute with the [Onboarding Stage Gates checklist](../09-sop-library/checklists
 * [Onboarding Stage Gates](../09-sop-library/checklists/onboarding-gates.md)
 * [Take-Live Readiness](../09-sop-library/checklists/take-live-readiness.md)
 * [Contract Signed Handoff](../09-sop-library/checklists/contract-signed-handoff.md)
+* [Incrementality Testing setup](../09-sop-library/how-to/incrementality-testing-setup.md)
 * [Campaign Launch](./campaign-launch.md)

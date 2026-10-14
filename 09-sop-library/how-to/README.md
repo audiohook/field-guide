@@ -11,6 +11,7 @@ Tactical walkthroughs when a checklist is not enough. For Sales → CS daily wor
 
 ### Sales & Client Success
 * **[Asana Operating Model](./asana-operating-model.md)**: Entry point for the full Asana how-to manual.
+* **[Incrementality Testing setup](./incrementality-testing-setup.md)**: Phase 1 GEOs, and Shopify history when the advertiser is on Shopify.
 * **[Asana pointer: Sales → Onboarding → Launch](./asana-sales-onboarding-launch.md)**: Stage maps, non-negotiable rules, ownership — points at the checklists.
 * *[How to Create an Insertion Order in PandaDoc (Stub)]*
 * *[How to Log a Deal in Clarify (Stub)]*
