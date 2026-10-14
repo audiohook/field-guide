@@ -50,13 +50,15 @@ Welcome to the **Audiohook Company Operator's Manual**. This repository serves a
 * [Sales-to-CS Handoff](./03-sales/handoffs.md) — Contract Signed ownership flip (checklist-driven)
 * [Sales Pipeline Stage Gates](./09-sop-library/checklists/sales-pipeline-gates.md) · [Contract Signed Handoff](./09-sop-library/checklists/contract-signed-handoff.md)
 
-### [04. Customer Success](./04-customer-success/README.md)
+### [04. Client Success](./04-customer-success/README.md)
 *Onboarding and launch — short EOS processes + stage-gate checklists.*
 * [Client Onboarding](./04-customer-success/client-onboarding.md) — Own → call → clear dependencies → Take Live
 * [Campaign Launch](./04-customer-success/campaign-launch.md) — Activate, notify, hold until Incrementality completes
 * [Campaign Optimization](./04-customer-success/optimization.md) — Performance analysis, budget reallocation, and targeting tweaks
 * [Client Reporting & QBRs](./04-customer-success/reporting.md) — Reporting cadence, dashboards, and review decks
 * [Escalations & At-Risk Accounts](./04-customer-success/escalations.md) — Early warning triggers and account recovery playbooks
+* [CSM Email Templates](./04-customer-success/csm-email-templates/README.md) — Copy-ready client emails
+* [Asana Operating Model](./09-sop-library/how-to/asana-operating-model.md) — Index of every Asana process; the Google Doc is the full how-to
 * [Onboarding Gates](./09-sop-library/checklists/onboarding-gates.md) · [Take-Live Readiness](./09-sop-library/checklists/take-live-readiness.md) · [In Testing → Complete](./09-sop-library/checklists/in-testing-complete.md)
 
 ### [05. Rev Ops](./05-ad-operations/README.md)
@@ -87,8 +89,8 @@ Welcome to the **Audiohook Company Operator's Manual**. This repository serves a
 
 ### [08. Finance](./08-finance/README.md)
 *Financial controls, revenue accounting, and cash flow operations.*
-* [Billing & Invoicing](./08-finance/billing.md) — Invoice generation, billing models, and credit terms
-* [Collections & Accounts Receivable](./08-finance/collections.md) — Dunning schedule, overdue follow-ups, and bad debt management
+* [Billing & Invoicing](./08-finance/billing.md) — Daily card billing, Net 30 invoicing, and internal controls
+* [Collections & Accounts Receivable](./08-finance/collections.md) — Collections policy, twice-monthly AR review, and past-due follow-up
 * [Vendor Payments & AP](./08-finance/vendor-payments.md) — Approval matrix, invoice processing, and payment schedules
 * [Financial Controls & Reporting](./08-finance/financial-controls.md) — Expense policies, monthly close, and financial audits
 

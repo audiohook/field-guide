@@ -3,14 +3,14 @@
 > **Department / Section**: 08-finance  
 > **Process Owner (Accountability Seat)**: Head of Finance / Controller  
 > **Target Audience (Who Follows It)**: Finance, Billing Specialists, Account Executives  
-> **Trigger / Cadence**: Monthly on the 1st Business Day; or Immediately on Pre-Pay Deals  
-> **Last Reviewed**: 2026-09-17
+> **Trigger / Cadence**: Daily card billing; monthly Net 30 invoicing  
+> **Last Reviewed**: 2026-10-14
 
 ---
 
 ## 1. Purpose & Outcome (Definition of Done)
 - **Purpose**: Accurately invoice advertisers and agencies for delivered media spend and platform fees according to contracted terms.
-- **Definition of Done**: 100% of advertiser invoices reconciled against DSP delivery logs, generated in accounting system, and delivered to clients by the 3rd business day of the month.
+- **Definition of Done**: 100% of advertiser invoices reconciled against UI, generated in accounting system, and delivered to clients by the 3rd business day of the month.
 
 ---
 
@@ -20,22 +20,31 @@
 
 ---
 
-## 3. Core Billing Models & Steps (The 20/80 Flow)
+## 3. Core Billing Models & Steps
 
 ### Billing Models
-1. **Credit Card Pre-Pay**: Client card charged automatically upon budget authorization via Stripe.
-2. **Net 30 Invoicing**: Available only to approved agencies/advertisers with executed credit application.
+1. **Credit Card**: Client card charged automatically on a daily basis based on actual conversion data from Supabase via Stripe.
+2. **Net 30 Invoicing**: Available only to approved agencies/advertisers with an executed credit application.
 
-### Monthly Invoicing Flow
-1. **Reconciliation (Day 1)**: Pull actualized impression and spend data from the Audiohook DSP reporting warehouse. Reconcile against signed IO budgets and contracted CPMs.
-2. **Invoice Generation (Day 2)**: Create invoices in QuickBooks/Stripe, matching IO number, client PO number, and advertiser billing contact.
-3. **Internal Review (Day 2)**: Account Executive / CSM reviews high-spend client invoices for any negotiated credits or make-goods.
-4. **Distribution (Day 3)**: Transmit invoices electronically with PDF attachment and direct payment link.
+### Invoicing Flow
+
+**Cards via Stripe**
+1. Billing of card via Stripe.
+2. On a weekly basis, the senior accountant will review all charges compared to the UI for accuracy. In the event a discrepancy is identified, the senior accountant will escalate to the finance director and/or engineering developer.
+
+**Net 30**
+1. For Net 30, the senior accountant will download monthly conversions from the UI.
+2. Invoices will be created in QuickBooks for the given customer for the month and distributed to the appropriate billing party.
+
+Note: For affiliate customers, invoices will only be sent to those identified by sales as "invoice required."
 
 ---
 
-## 4. Exceptions & Escalations
-* Discrepancies between DSP and 3rd-party ad server (e.g. Google Campaign Manager) > 10%: Escalate to Ad Ops and Sales Lead for reconciliation before sending invoice.
+## 4. Internal Controls
+1. Review of daily billing versus UI on a weekly basis.
+2. Discussion of any variances with daily billing with engineering and the director of client success.
+3. Reconcile affiliate billing with individual affiliate platforms on a monthly basis and investigate any variances with the director of affiliate partnerships and the client success engineer.
+4. Monthly reconciliation of daily billing versus UI. Discussion of any variances in the monthly reconciliation with engineering and the director of client success.
 
 ---
 

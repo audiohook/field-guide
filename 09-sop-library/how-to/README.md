@@ -9,7 +9,8 @@ Tactical walkthroughs when a checklist is not enough. For Sales → CS daily wor
 ### Engineering
 * **[How to Connect to the Field Guide MCP](./field-guide-mcp.md)**: Employee sign-in for Cursor and Claude.
 
-### Sales & Customer Success
+### Sales & Client Success
+* **[Asana Operating Model](./asana-operating-model.md)**: Entry point for the full Asana how-to manual.
 * **[Asana pointer: Sales → Onboarding → Launch](./asana-sales-onboarding-launch.md)**: Stage maps, non-negotiable rules, ownership — points at the checklists.
 * *[How to Create an Insertion Order in PandaDoc (Stub)]*
 * *[How to Log a Deal in Clarify (Stub)]*

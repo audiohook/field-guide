@@ -22,7 +22,7 @@ const SECTIONS: Record<string, string> = {
 	'01-company': '01. Company',
 	'02-people': '02. People',
 	'03-sales': '03. Sales',
-	'04-customer-success': '04. Customer Success',
+	'04-customer-success': '04. Client Success',
 	'05-ad-operations': '05. Rev Ops',
 	'06-product': '06. Product',
 	'07-engineering': '07. Engineering',
