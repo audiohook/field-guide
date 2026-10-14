@@ -14,7 +14,7 @@ At Audiohook, we follow the **20/80 Rule**:
 * **High-Level & Digestible**: Keep core processes simple, clear, and focused on the critical path (usually 4–7 steps).
 * **Owned by an Accountability Seat**: Every process has a single named seat on the Accountability Chart responsible for its health.
 * **Followed by All (FBA)**: A process is only real if everyone on the team actually follows it. If the process is too complex to follow, simplify it.
-* **Core Flow vs. SOPs**: The core process lives in its department section (`01` through `08`). Granular click-by-click instructions, screenshots, or task checklists live in `09-sop-library/`.
+* **Core Flow vs. SOPs**: The core process lives in its department section (`01` through `08`, `10` for Supply, and `11` for Marketing). Granular click-by-click instructions, screenshots, or task checklists live in `09-sop-library/`.
 
 ---
 

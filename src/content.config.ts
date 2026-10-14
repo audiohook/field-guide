@@ -5,7 +5,7 @@ import { glob } from 'tinyglobby';
 import { defineCollection, type Loader } from 'astro:content';
 import { docsSchema } from '@astrojs/starlight/schema';
 
-const handbookFiles = ['README.md', 'LEADERSHIP_GUIDE.md', 'PROCESS_TEMPLATE.md', '0*/**/*.md'];
+const handbookFiles = ['README.md', 'LEADERSHIP_GUIDE.md', 'PROCESS_TEMPLATE.md', '0*/**/*.md', '1*/**/*.md'];
 
 function pageId(entry: string) {
   const withoutExtension = entry.replace(/\.mdx?$/i, '');

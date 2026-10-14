@@ -96,3 +96,12 @@ Welcome to the **Audiohook Company Operator's Manual**. This repository serves a
 *Checklists are the Followed-by-All execution layer; how-tos are pointers and deep tool help.*
 * [Checklists](./09-sop-library/checklists/README.md) — Sales/onboarding/launch stage gates and Take-Live readiness
 * [How-To Guides](./09-sop-library/how-to/README.md) — Asana pointer and other tool guides
+
+### [10. Supply](./10-supply/README.md)
+*Relationships with content creators and networks that provide ad inventory.*
+* [Creator & Network Relationships](./10-supply/relationships.md) — Placeholder for how Supply finds and maintains creator and network partnerships
+* [Inventory Intake](./10-supply/inventory-intake.md) — Placeholder for how partner ad inventory is received
+
+### [11. Marketing](./11-marketing/README.md)
+*Placeholder section with a blank process for the Marketing team to fill in.*
+* [Process Template](./11-marketing/process-template.md) — Blank EOS process. Duplicate the file for each additional process.
