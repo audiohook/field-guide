@@ -4,7 +4,7 @@
 > **Process Owner (Accountability Seat)**: Head of Engineering / Principal Architect  
 > **Target Audience (Who Follows It)**: All Engineers  
 > **Trigger / Cadence**: Triggered Before Introducing New Services, Databases, or Major Tech Choices  
-> **Last Reviewed**: 2026-09-17
+> **Last Reviewed**: 2026-10-14
 
 ---
 
@@ -22,20 +22,9 @@
 
 ## 3. Core Architectural Map
 
-Audiohook operates high-throughput real-time bidding and attribution services:
+Audiohook v3 runs real-time bidding and event processing as three walled services (`bidder`, `processor`, `scheduler`) in the `audiohook-v3` monorepo. Compute runs on Cycle/Vultr, and Cloudflare handles ingress:
 
-```
-[RTB Exchanges / SSPs] ──> [Bidder Service (FastAPI / Redis / C++)]
-                                       │
-                                       ▼ (Bid Wins / Impressions)
-[Client Web / S2S] ────> [Events Ingress] ──> [Kafka / Kinesis] ──> [Conversions & Attribution]
-                                                                                │
-                                                                                ▼
-                                                                     [ClickHouse / Postgres]
-                                                                                │
-                                                                                ▼
-                                                                     [Audiohook Portal & API]
-```
+<div style="width: 100%; max-width: 640px; aspect-ratio: 4 / 3; margin: 10px 0; position: relative;"><iframe allowfullscreen frameborder="0" style="width: 100%; height: 100%;" src="https://lucid.app/documents/embedded/29961244-276c-4d46-9ad5-4f6325c41c40" id="2mhDsQ4hC8GM" title="Audiohook v3 architecture diagram"></iframe></div>
 
 ---
 
