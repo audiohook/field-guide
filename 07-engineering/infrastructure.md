@@ -27,7 +27,7 @@
 * **Compute**: Vultr bare-metal servers with Cycle.io container orchestration; AWS Lambda for serverless functions.
 * **Data Storage**:
   * **Redis / Dragonfly**: High-speed distributed caching and budget tracking.
-  * **PostgreSQL (RDS)**: Core transactional data (users, campaigns, line items, billing).
+  * **Aurora PostgreSQL (AWS)**: Core transactional data (users, campaigns, line items, billing); planned to be phased out in the future.
   * **ClickHouse**: High-throughput analytics engine for event streams and conversion matching.
   * **S3**: Object storage.
   * **Firehose**: Data ingestion into S3.
