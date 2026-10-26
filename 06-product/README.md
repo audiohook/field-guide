@@ -2,6 +2,8 @@
 
 This section governs how Audiohook defines product direction, prioritizes work, conducts customer research, writes specifications, and coordinates product releases.
 
+Ad scripts, voices, and music are documented in [12. Creative](../12-creative/README.md).
+
 ---
 
 ## Documents & Core Processes

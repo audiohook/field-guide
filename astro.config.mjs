@@ -13,6 +13,7 @@ const sections = [
   ['09-sop-library', '09. SOP Library'],
   ['10-supply', '10. Supply'],
   ['11-marketing', '11. Marketing'],
+  ['12-creative', '12. Creative'],
 ];
 
 export default defineConfig({

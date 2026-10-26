@@ -111,3 +111,15 @@ Welcome to the **Audiohook Company Operator's Manual**. This repository serves a
 *Affiliate platform onboarding, plus a blank process template for additional Marketing processes.*
 * [Affiliate Platform Onboarding](./11-marketing/affiliate-platform-onboarding.md) — Three approval gates before a new affiliate platform is operational
 * [Process Template](./11-marketing/process-template.md) — Blank EOS process. Duplicate the file for each additional process.
+
+### [12. Creative](./12-creative/README.md)
+*Scripts, messaging, voices, and music — from client research through upload for review.*
+* [Creative Production](./12-creative/creative-production.md) — Six steps: research, messaging, scripts, approval, production, upload
+* [Client Creative Notes](./12-creative/client-notes.md) — Client-specific notes used in research *(outline)*
+* [Messaging Types](./12-creative/messaging-types.md) — Rundown of messaging types *(outline)*
+* [Script Template](./12-creative/script-template.md) — Template for every new script *(outline)*
+* [Briefing Claude for Scripts](./12-creative/briefing-claude.md) — How to brief Claude for a script draft *(outline)*
+* [Script and Ad File Titling](./12-creative/file-titling.md) — File names for scripts and finished ads *(outline)*
+* [Post-Voice Selection Mixing](./12-creative/mixing.md) — Mix after a voice is selected *(outline)*
+* [ElevenLabs Troubleshooting](./12-creative/elevenlabs.md) — When ElevenLabs blocks production *(outline)*
+* [Creative Audio Best Practices](./12-creative/audio-best-practices.md) — Practices for produced audio *(outline)*

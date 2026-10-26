@@ -2,6 +2,8 @@
 
 This section details technical campaign delivery, creative trafficking, inventory management, pixel tracking verification, and DSP troubleshooting at Audiohook.
 
+Script writing, voice production, and music live in [12. Creative](../12-creative/README.md). This section starts when an approved asset is ready to traffic.
+
 **Rev Ops is a function inside Sales & RevOps, not its own department.** It reports through Sales & RevOps (Carrie), alongside Sales and Customer Success. These process docs live here for readability; they do not represent a separate department on the [Org Chart](../01-company/org-chart.md).
 
 ---

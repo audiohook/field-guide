@@ -46,5 +46,6 @@
 ---
 
 ## 5. Related Links
+* [Creative Production](../12-creative/creative-production.md) — how Creative writes and produces the ad before it arrives here
 * [Campaign Setup & Trafficking](./campaign-setup.md)
 * [Campaign QA Checklist](./qa.md)

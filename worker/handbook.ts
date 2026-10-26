@@ -28,6 +28,9 @@ const SECTIONS: Record<string, string> = {
 	'07-engineering': '07. Engineering',
 	'08-finance': '08. Finance',
 	'09-sop-library': '09. SOP Library',
+	'10-supply': '10. Supply',
+	'11-marketing': '11. Marketing',
+	'12-creative': '12. Creative',
 };
 
 const SAFE_PATH = /^\/[A-Za-z0-9][A-Za-z0-9._/-]*$/;
@@ -36,7 +39,7 @@ export function isHandbookFile(filePath: string) {
 	if (filePath === 'README.md' || filePath === 'LEADERSHIP_GUIDE.md' || filePath === 'PROCESS_TEMPLATE.md') {
 		return true;
 	}
-	return /^0\d-[a-z0-9-]+\/.+\.md$/i.test(filePath);
+	return /^\d{2}-[a-z0-9-]+\/.+\.md$/i.test(filePath);
 }
 
 function titleFromMarkdown(source: string, fallback: string) {

@@ -52,3 +52,4 @@ Execute with the [Onboarding Stage Gates checklist](../09-sop-library/checklists
 * [Contract Signed Handoff](../09-sop-library/checklists/contract-signed-handoff.md)
 * [Incrementality Testing setup](../09-sop-library/how-to/incrementality-testing-setup.md)
 * [Campaign Launch](./campaign-launch.md)
+* [Creative Production](../12-creative/creative-production.md)
