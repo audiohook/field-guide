@@ -4,7 +4,7 @@
 > **Process Owner (Accountability Seat)**: Head of Finance / Controller  
 > **Target Audience (Who Follows It)**: Finance, Billing Specialists, Account Executives  
 > **Trigger / Cadence**: Daily card billing; monthly Net 30 invoicing  
-> **Last Reviewed**: 2026-10-14
+> **Last Reviewed**: 2026-11-06
 
 ---
 
@@ -29,8 +29,10 @@
 ### Invoicing Flow
 
 **Cards via Stripe**
-1. Billing of card via Stripe.
-2. On a weekly basis, the senior accountant will review all charges compared to the UI for accuracy. In the event a discrepancy is identified, the senior accountant will escalate to the finance director and/or engineering developer.
+1. Before launch, the client's card is added to their Stripe profile (see [Customer Acceptance](./customer-acceptance.md)).
+2. When a client (new or existing) moves to daily billing, Accounting adds them to the [daily billing tracker](https://docs.google.com/spreadsheets/d/1WknNInNMuecz-VaBJmNw3MJuPMvX59vmGFmRs7ayQDc/edit?usp=sharing) and notifies Engineering. Do this only after the card is in Stripe, because the UI does not yet import card details from Stripe on its own.
+3. The card is billed daily via Stripe.
+4. On a weekly basis, the senior accountant will review all charges compared to the UI for accuracy. In the event a discrepancy is identified, the senior accountant will escalate to the finance director and/or engineering developer.
 
 **Net 30**
 1. For Net 30, the senior accountant will download monthly conversions from the UI.
@@ -40,7 +42,16 @@ Note: For affiliate customers, invoices will only be sent to those identified by
 
 ---
 
-## 4. Internal Controls
+## 4. Exceptions & Escalations
+
+| Condition / Trigger | Escalation Path | Notification Channel |
+| :--- | :--- | :--- |
+| Client is on daily billing but not being charged (card missing in Stripe or not connected in the UI) | Accounting confirms the card with the CSM, then notifies Engineering | Slack |
+| Daily charges don't match the UI | Senior Accountant to Finance Director and/or Engineering | Slack |
+
+---
+
+## 5. Internal Controls
 1. Review of daily billing versus UI on a weekly basis.
 2. Discussion of any variances with daily billing with engineering and the director of client success.
 3. Reconcile affiliate billing with individual affiliate platforms on a monthly basis and investigate any variances with the director of affiliate partnerships and the client success engineer.
@@ -48,6 +59,7 @@ Note: For affiliate customers, invoices will only be sent to those identified by
 
 ---
 
-## 5. Related Links
+## 6. Related Links
+* [Customer Acceptance](./customer-acceptance.md)
 * [Proposals & Contracting](../03-sales/proposals.md)
 * [Collections & AR](./collections.md)

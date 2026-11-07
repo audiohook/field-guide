@@ -25,7 +25,8 @@ Do not activate until every item is complete or N/A. Then run launch actions and
 ## Billing
 
 - [ ] Path matches custom fields
-- [ ] Direct CC → Stripe on file
+- [ ] Direct CC → card on file in Stripe (required before launch; see [Customer Acceptance](../../08-finance/customer-acceptance.md))
+- [ ] Net 30 → credit application approved by Finance
 - [ ] Affiliate billing → terms specialist-approved
 - [ ] Affiliate reporting + direct bill → **$0 CPA / $0 reporting terms**
 - [ ] Referral reporting done if applicable
