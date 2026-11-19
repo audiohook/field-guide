@@ -1,15 +1,15 @@
 # Vendor Payments & Accounts Payable
 
 > **Department / Section**: 08-finance  
-> **Process Owner (Accountability Seat)**: Head of Finance / Accounts Payable  
-> **Target Audience (Who Follows It)**: Finance, All Employees Submitting Expenses or Vendor Bills  
-> **Trigger / Cadence**: Scheduled payment run at the direction of the CEO  
-> **Last Reviewed**: 2026-10-14
+> **Process Owner (Accountability Seat)**: Finance Director / Senior Accountant  
+> **Target Audience (Who Follows It)**: Senior Accountant, Department Heads, CEO, All Employees Submitting Expenses or Vendor Bills  
+> **Trigger / Cadence**: Scheduled Payment Runs at the Direction of the CEO  
+> **Last Reviewed**: 2026-11-18
 
 ---
 
 ## 1. Purpose & Outcome (Definition of Done)
-- **Purpose**: Ensure vendors, supply partners, and SaaS providers are paid accurately, with invoices approved before the scheduled payment run.
+- **Purpose**: Ensure vendors, supply partners, and SaaS providers are paid accurately and on time.
 - **Definition of Done**: Invoices are approved and verified by authorized department heads and/or the CEO, and paid via a scheduled payment run at the direction of the CEO.
 
 ---

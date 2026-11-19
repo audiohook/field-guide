@@ -1,10 +1,10 @@
 # Financial Controls & Reporting
 
 > **Department / Section**: 08-finance  
-> **Process Owner (Accountability Seat)**: Head of Finance / Integrator  
-> **Target Audience (Who Follows It)**: Finance, Executive Leadership  
+> **Process Owner (Accountability Seat)**: Finance Director  
+> **Target Audience (Who Follows It)**: Senior Accountant, Finance Director, CEO  
 > **Trigger / Cadence**: Monthly Accounting Close; Reviewed at Quarterly Planning  
-> **Last Reviewed**: 2026-10-14
+> **Last Reviewed**: 2026-11-18
 
 ---
 
@@ -27,18 +27,18 @@
 2. **Financial Reporting**:
    * Generate monthly P&L, Balance Sheet, Cash Flow Statement, and Budget to Actuals for leadership L10.
 3. **Segregation of Duties**:
-   * The individual who approves a vendor bill cannot be the individual uploading the invoice into Mercury (the Company's banking platform).
-4. **CEO approval**:
-   * The CEO approves all invoices paid and their timing.
+   * The individual who approves a vendor bill cannot be the individual who uploads the invoice into Mercury (the Company's banking platform).
+4. **CEO Approval**:
+   * The CEO approves all invoices paid and the timing of each payment.
 5. **Corporate Credit Card Policy**:
    * Company cards are for legitimate business expenses only.
-   * Receipts must be uploaded to Mercury within 7 days of the transaction, aligned with company policy.
+   * Receipts must be uploaded to Mercury within 7 days of the transaction, in line with Company policy.
 
 ---
 
 ## 4. Exceptions & Escalations
-1. Any employee with undocumented business expenses for more than 2 months will be identified and escalated to their immediate supervisor. If lack of documentation continues, escalate to the CEO and determine whether the account should be suspended.
-2. Any suspected fraudulent activity or unexplained variance must be reported immediately to the Senior Accountant and Finance Director.
+1. Any employee with undocumented business expenses for more than 2 months will be identified and escalated to their immediate supervisor. If documentation is still missing, the issue will be escalated to the CEO, who will determine whether the employee's corporate credit card account should be suspended.
+2. Any suspected fraudulent activity or unexplained variance must be reported immediately to the Senior Accountant and the Finance Director.
 
 ---
 
