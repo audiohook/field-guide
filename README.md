@@ -95,7 +95,7 @@ Welcome to the **Audiohook Company Operator's Manual**. This repository serves a
 * [Collections & Accounts Receivable](./08-finance/collections.md) — Collections policy, twice-monthly AR review, and past-due follow-up
 * [Vendor Payments & AP](./08-finance/vendor-payments.md) — Invoice intake, coding, and scheduled payment runs
 * [Financial Controls & Reporting](./08-finance/financial-controls.md) — Balance sheet reconciliation, segregation of duties, and the corporate card policy
-* [Accounting Policies](./08-finance/README.md#accounting-policies) — Prepaids, fixed assets, accruals, software development, and acquisitions
+* [Accounting Policies](./08-finance/accounting-policies.md) — Prepaid expenses, fixed assets, accrued expenses, software development, and acquisitions
 
 ### [09. SOP Library](./09-sop-library/README.md)
 *Checklists are the Followed-by-All execution layer; how-tos are pointers and deep tool help.*
