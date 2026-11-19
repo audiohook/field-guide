@@ -3,7 +3,7 @@
 > **Department / Section**: 09-sop-library / checklists  
 > **Supports**: [Client Onboarding](../../04-customer-success/client-onboarding.md)  
 > **Owner**: Assigned CSM (specialists own their subtasks)  
-> **Last Reviewed**: 2026-10-08
+> **Last Reviewed**: 2026-10-14
 
 Onboarding Overview is the high-level board. Specialized work stays in Creative / Tracking / Billing projects via multi-homing.
 
@@ -42,6 +42,7 @@ New Contract Assignment → Setup and Intro → Call Pending
 - [ ] Tracking subtasks complete in the correct tracking project(s); test conversions visible
 - [ ] Campaign settings configured in Audiohook UI as required
 - [ ] Referral reporting confirmed if applicable
+- [ ] Incrementality Testing setup done ([how-to](../how-to/incrementality-testing-setup.md)): Phase 1 GEOs recorded; Shopify history cleaned first when the advertiser is on Shopify
 - [ ] Clarify client record current
 - [ ] CSM monitors readiness; does not run Creative production
 

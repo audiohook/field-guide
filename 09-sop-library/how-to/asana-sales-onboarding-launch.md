@@ -56,4 +56,4 @@ Checklists: [Onboarding Stage Gates](../checklists/onboarding-gates.md) → [Tak
 
 ## Full reference
 
-Authoritative deep documentation remains in the *Audiohook Asana Operating Model* Google Doc (Sales Pipeline, Onboarding Overview, Tracking, Incrementality tabs). The field guide intentionally keeps Followed-by-All material short; put process changes into the checklists first.
+Authoritative deep documentation is the [Audiohook Asana Operating Model](./asana-operating-model.md) (Sales Pipeline, Onboarding Overview, Tracking, Incrementality, and every other Revenue tab). The field guide intentionally keeps Followed-by-All material short; put process changes into the checklists first.

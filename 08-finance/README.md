@@ -1,15 +1,22 @@
 # 08. Finance
 
-This section documents core financial processes at Audiohook: billing advertisers, managing receivables and dunning, processing vendor payments, and maintaining strict accounting controls.
+This section documents core financial processes at Audiohook: billing advertisers, managing receivables and collections, processing vendor payments, and maintaining strict accounting controls.
 
 ---
 
-## Documents & Core Processes
+## Core Finance Process
 
-* **[Billing & Invoicing](./billing.md)**: Monthly invoice generation, credit card processing, insertion order reconciliations, and credit terms.
-* **[Collections & Accounts Receivable](./collections.md)**: Dunning schedule, overdue follow-ups, interest charges, and bad debt management.
-* **[Vendor Payments & Accounts Payable](./vendor-payments.md)**: Invoice intake, approval matrix, payment schedules, and expense compliance.
-* **[Financial Controls & Compliance](./financial-controls.md)**: Monthly close checklist, bank reconciliations, corporate card policy, and audit readiness.
+Finance follows four steps, in order, for every client:
+
+1. **[Customer Acceptance](./customer-acceptance.md)**: Confirm the billing path and get a card on file in Stripe, or an approved credit application for Net 30, before launch.
+2. **[Invoicing](./billing.md)**: Daily card billing via Stripe, monthly Net 30 invoicing in QuickBooks, and reconciliation against the UI.
+3. **[Collections](./collections.md)**: Twice-monthly AR review, interest on invoices 31+ days past due, and past-due follow-up.
+4. **[Financial Reporting](./financial-controls.md)**: Monthly close, balance sheet reconciliation, and statements for leadership, plus the controls that protect them.
+
+### Supporting Processes
+
+* **[Vendor Payments & Accounts Payable](./vendor-payments.md)**: Invoice intake to accounting@audiohook.com, coding, and scheduled payment runs.
+* **[Accounting Policies](./accounting-policies.md)**: Prepaid expenses, fixed assets, accrued expenses, software development, and acquisitions.
 
 ---
 

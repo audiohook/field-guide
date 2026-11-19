@@ -5,7 +5,7 @@ const sections = [
   ['01-company', '01. Company'],
   ['02-people', '02. People'],
   ['03-sales', '03. Sales'],
-  ['04-customer-success', '04. Customer Success'],
+  ['04-customer-success', '04. Client Success'],
   ['05-ad-operations', '05. Rev Ops'],
   ['06-product', '06. Product'],
   ['07-engineering', '07. Engineering'],
@@ -13,6 +13,7 @@ const sections = [
   ['09-sop-library', '09. SOP Library'],
   ['10-supply', '10. Supply'],
   ['11-marketing', '11. Marketing'],
+  ['12-creative', '12. Creative'],
 ];
 
 export default defineConfig({

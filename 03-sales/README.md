@@ -9,7 +9,7 @@ How Audiohook qualifies, proposes, closes, and hands off new business.
 ## Core processes (EOS 20/80)
 
 * **[Sales Process Overview](./sales-process.md)** — Five steps from lead to handoff.
-* **[Lead Qualification & ICP](./qualification.md)** — SQL / ICP bar.
+* **[Lead Qualification & ICP](./qualification.md)** — Shopify ICP, 250 weekly conversions, and SQO / LQO gates.
 * **[CRM Hygiene & Pipeline](./crm.md)** — Clarify mirrors Asana.
 * **[Proposals & Contracting](./proposals.md)** — Build → Leadership → Client → IO.
 * **[Sales-to-CS Handoff](./handoffs.md)** — Contract Signed ownership flip.

@@ -30,4 +30,11 @@ describe('handbook index', () => {
 		assert.ok(sales.length > 0);
 		assert.ok(sales.every((page) => page.section === '03. Sales'));
 	});
+
+	it('indexes sections numbered 10 and above', () => {
+		assert.equal(getPage(pages, '/10-supply')?.section, '10. Supply');
+		assert.equal(getPage(pages, '/11-marketing')?.section, '11. Marketing');
+		assert.equal(getPage(pages, '/12-creative')?.section, '12. Creative');
+		assert.equal(getPage(pages, '/12-creative/creative-production')?.title, 'Creative Production');
+	});
 });

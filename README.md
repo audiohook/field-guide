@@ -44,19 +44,23 @@ Welcome to the **Audiohook Company Operator's Manual**. This repository serves a
 ### [03. Sales](./03-sales/README.md)
 *Revenue generation — short EOS processes + Asana stage-gate checklists.*
 * [Sales Process](./03-sales/sales-process.md) — Five-step lifecycle; execute via stage-gate checklist
-* [Qualification](./03-sales/qualification.md) — Ideal Customer Profile (ICP) and SQL criteria
+* [Qualification](./03-sales/qualification.md) — Shopify ICP, 250 weekly conversions, and SQO / LQO gates
 * [CRM Hygiene & Pipeline](./03-sales/crm.md) — Clarify mirrors Asana
 * [Proposals & Contracting](./03-sales/proposals.md) — Leadership gate, client validation, IO
 * [Sales-to-CS Handoff](./03-sales/handoffs.md) — Contract Signed ownership flip (checklist-driven)
 * [Sales Pipeline Stage Gates](./09-sop-library/checklists/sales-pipeline-gates.md) · [Contract Signed Handoff](./09-sop-library/checklists/contract-signed-handoff.md)
 
-### [04. Customer Success](./04-customer-success/README.md)
+### [04. Client Success](./04-customer-success/README.md)
 *Onboarding and launch — short EOS processes + stage-gate checklists.*
-* [Client Onboarding](./04-customer-success/client-onboarding.md) — Own → call → clear dependencies → Take Live
+* [Client Onboarding](./04-customer-success/client-onboarding.md) — Own → call → clear dependencies, including Incrementality setup → Take Live
 * [Campaign Launch](./04-customer-success/campaign-launch.md) — Activate, notify, hold until Incrementality completes
-* [Campaign Optimization](./04-customer-success/optimization.md) — Performance analysis, budget reallocation, and targeting tweaks
+* [Campaign Optimization](./04-customer-success/optimization.md) — Weekly funnel metrics check, then budget and targeting changes
 * [Client Reporting & QBRs](./04-customer-success/reporting.md) — Reporting cadence, dashboards, and review decks
 * [Escalations & At-Risk Accounts](./04-customer-success/escalations.md) — Early warning triggers and account recovery playbooks
+* [Restarting a Churned Client](./04-customer-success/restarting-churned-client.md) — Whether a former client should come back, and on what terms
+* [Client Success Reference](./04-customer-success/client-success-reference.md) — Statuses, campaign types, quality score, and how to handle a hard conversation
+* [CSM Email Templates](./04-customer-success/csm-email-templates/README.md) — Copy-ready client emails
+* [Asana Operating Model](./09-sop-library/how-to/asana-operating-model.md) — Index of every Asana process; the Google Doc is the full how-to
 * [Onboarding Gates](./09-sop-library/checklists/onboarding-gates.md) · [Take-Live Readiness](./09-sop-library/checklists/take-live-readiness.md) · [In Testing → Complete](./09-sop-library/checklists/in-testing-complete.md)
 
 ### [05. Rev Ops](./05-ad-operations/README.md)
@@ -87,10 +91,11 @@ Welcome to the **Audiohook Company Operator's Manual**. This repository serves a
 
 ### [08. Finance](./08-finance/README.md)
 *Financial controls, revenue accounting, and cash flow operations.*
-* [Billing & Invoicing](./08-finance/billing.md) — Invoice generation, billing models, and credit terms
-* [Collections & Accounts Receivable](./08-finance/collections.md) — Dunning schedule, overdue follow-ups, and bad debt management
-* [Vendor Payments & AP](./08-finance/vendor-payments.md) — Approval matrix, invoice processing, and payment schedules
-* [Financial Controls & Reporting](./08-finance/financial-controls.md) — Expense policies, monthly close, and financial audits
+* [Billing & Invoicing](./08-finance/billing.md) — Daily card billing, Net 30 invoicing, and internal controls
+* [Collections & Accounts Receivable](./08-finance/collections.md) — Collections policy, twice-monthly AR review, and past-due follow-up
+* [Vendor Payments & AP](./08-finance/vendor-payments.md) — Invoice intake, coding, and scheduled payment runs
+* [Financial Controls & Reporting](./08-finance/financial-controls.md) — Balance sheet reconciliation, segregation of duties, and the corporate card policy
+* [Accounting Policies](./08-finance/accounting-policies.md) — Prepaid expenses, fixed assets, accrued expenses, software development, and acquisitions
 
 ### [09. SOP Library](./09-sop-library/README.md)
 *Checklists are the Followed-by-All execution layer; how-tos are pointers and deep tool help.*
@@ -103,5 +108,18 @@ Welcome to the **Audiohook Company Operator's Manual**. This repository serves a
 * [Inventory Intake](./10-supply/inventory-intake.md) — Placeholder for how partner ad inventory is received
 
 ### [11. Marketing](./11-marketing/README.md)
-*Placeholder section with a blank process for the Marketing team to fill in.*
+*Affiliate platform onboarding, plus a blank process template for additional Marketing processes.*
+* [Affiliate Platform Onboarding](./11-marketing/affiliate-platform-onboarding.md) — Three approval gates before a new affiliate platform is operational
 * [Process Template](./11-marketing/process-template.md) — Blank EOS process. Duplicate the file for each additional process.
+
+### [12. Creative](./12-creative/README.md)
+*Scripts, messaging, voices, and music — from client research through upload for review.*
+* [Creative Production](./12-creative/creative-production.md) — Six steps: research, messaging, scripts, approval, production, upload
+* [Client Creative Notes](./12-creative/client-notes.md) — Client-specific notes used in research *(outline)*
+* [Messaging Types](./12-creative/messaging-types.md) — Rundown of messaging types *(outline)*
+* [Script Template](./12-creative/script-template.md) — Template for every new script *(outline)*
+* [Briefing Claude for Scripts](./12-creative/briefing-claude.md) — How to brief Claude for a script draft *(outline)*
+* [Script and Ad File Titling](./12-creative/file-titling.md) — File names for scripts and finished ads *(outline)*
+* [Post-Voice Selection Mixing](./12-creative/mixing.md) — Mix after a voice is selected *(outline)*
+* [ElevenLabs Troubleshooting](./12-creative/elevenlabs.md) — When ElevenLabs blocks production *(outline)*
+* [Creative Audio Best Practices](./12-creative/audio-best-practices.md) — Practices for produced audio *(outline)*

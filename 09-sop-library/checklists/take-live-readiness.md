@@ -3,7 +3,7 @@
 > **Department / Section**: 09-sop-library / checklists  
 > **Supports**: [Client Onboarding](../../04-customer-success/client-onboarding.md), [Campaign Launch](../../04-customer-success/campaign-launch.md)  
 > **Owner**: Assigned CSM  
-> **Last Reviewed**: 2026-10-08
+> **Last Reviewed**: 2026-10-14
 
 Do not activate until every item is complete or N/A. Then run launch actions and continue on [In Testing → Complete](./in-testing-complete.md).
 
@@ -25,7 +25,8 @@ Do not activate until every item is complete or N/A. Then run launch actions and
 ## Billing
 
 - [ ] Path matches custom fields
-- [ ] Direct CC → Stripe on file
+- [ ] Direct CC → card on file in Stripe (required before launch; see [Customer Acceptance](../../08-finance/customer-acceptance.md))
+- [ ] Net 30 → credit application approved by Finance
 - [ ] Affiliate billing → terms specialist-approved
 - [ ] Affiliate reporting + direct bill → **$0 CPA / $0 reporting terms**
 - [ ] Referral reporting done if applicable
@@ -36,6 +37,12 @@ Do not activate until every item is complete or N/A. Then run launch actions and
 - [ ] Multi-homed into correct tracking project(s)
 - [ ] Implementation subtasks complete
 - [ ] Test conversions visible
+
+## Incrementality
+
+- [ ] [Incrementality Testing setup](../how-to/incrementality-testing-setup.md) complete
+- [ ] Phase 1 GEOs recorded on the parent task
+- [ ] Shopify historical sales file cleaned and supplied, or N/A
 
 ## Creative
 

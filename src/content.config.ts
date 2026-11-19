@@ -15,13 +15,17 @@ function pageId(entry: string) {
   return withoutExtension;
 }
 
+function stripFrontMatter(source: string) {
+  return source.replace(/^---\r?\n[\s\S]*?\r?\n---\r?\n*/, '');
+}
+
 function titleFromMarkdown(source: string, fallback: string) {
-  const match = source.match(/^#\s+(.+)$/m);
+  const match = stripFrontMatter(source).match(/^#\s+(.+)$/m);
   return match?.[1]?.replace(/\s+#+\s*$/, '').trim() || fallback;
 }
 
 function bodyWithoutTitle(source: string) {
-  return source.replace(/^#\s+.+(?:\r?\n)+/, '');
+  return stripFrontMatter(source).replace(/^#\s+.+(?:\r?\n)+/, '');
 }
 
 function sitePath(file: string) {
