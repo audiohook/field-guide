@@ -26,7 +26,7 @@
 1. **Automated CI Build**: On PR merge to `main`, GitHub Actions triggers automated container build, security scans, and test suite execution.
 2. **Deploy to Staging**: Container deployed to staging environment; automated smoke tests verify health endpoints (`/healthz`).
 3. **Production Rollout**:
-   * Kubernetes/ECS rolling deploy updates pods/tasks incrementally.
+   * Cycle.io rolling deploy updates containers incrementally.
    * Zero-downtime database migrations (always backward-compatible).
 4. **Post-Deploy Sanity Check (10 mins)**:
    * Engineer observes Datadog / CloudWatch dashboards (HTTP 5xx rates, latency p95/p99, queue backlogs).
